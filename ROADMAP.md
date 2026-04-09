@@ -19,12 +19,6 @@ De kern van de beleid-assistent is uitgewerkt en getest. In fase 1 wordt deze om
 - [ ] Startset: AVG, Omgevingswet, Gemeentewet, IBD-richtlijnen
 - [ ] Update-mechanisme: periodieke verversing via Celery
 
-## Fase 3 — Integratie met grc-platform
-
-- [ ] cisochat-integratie: beleidscontext beschikbaar in GRC-vragen
-- [ ] Gedeelde kennisbank: normatieve documenten gedeeld tussen beleid-assistent en grc-platform
-- [ ] Single sign-on tussen de twee platforms
-
 ---
 
 Bijdragen aan de roadmap? Open een [issue](https://github.com/security-commons-nl/beleid-assistent/issues) of start een [discussie](https://github.com/security-commons-nl/beleid-assistent/discussions).
