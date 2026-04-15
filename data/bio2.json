@@ -1,0 +1,1199 @@
+{
+  "versie": "BIO2 v1.3 definitief - 9 januari 2026",
+  "bron": "Centrum Informatiebeveiliging en Privacybescherming (CIP)",
+  "toelichting": "Overheidsmaatregelen uit v1.3 PDF; ISO-maatregelen en risicos uit v1.2 XLSX (CIP, 24 september 2025).",
+  "controls": [
+    {
+      "id": "5.01.01",
+      "titel": "Informatiebeveiligingsbeleid",
+      "iso_maatregel": "Informatiebeveiligingsbeleid en onderwerpspecifieke\nbeleidsregels moeten worden gedefinieerd, goedgekeurd door het management, gepubliceerd, gecommuniceerd aan en erkend door relevant personeel en relevante belanghebbenden en met \ngeplande tussenpozen en als zich significante wijzigingen voordoen, worden beoordeeld",
+      "risico": "Information security practices are inconsistent or unclear due to missing or outdated policies.",
+      "overheidsmaatregel": "De entiteit heeft een informatiebeveiligingsbeleid opgesteld en vastgesteld door het bestuur van de entiteit. Dit beleid bevat ten minste de volgende punten: � De strategische uitgangspunten en randvoorwaarden die de entiteit hanteert voor informatiebeveiliging en in het bijzonder de inbedding in en afstemming op het algemene beveiligingsbeleid en het informatievoorzieningsbeleid. � De organisatie van de informatiebeveiligingsfunctie, waaronder verantwoordelijkheden, taken en bevoegdheden. � De toewijzing van de verantwoordelijkheden en samenhang van informatiebeveiliging voor ketens van informatiesystemen, de beveiliging van OT, privacybescherming en de verantwoordelijkheden voor de continu�teit van de taakuitvoering van entiteit (BCM) aan lijnmanagers. � De gemeenschappelijke betrouwbaarheidseisen en normen die op de entiteit van toepassing zijn. � De frequentie waarmee het informatiebeveiligingsbeleid wordt ge�valueerd. � De bevordering van het beveiligingsbewustzijn. Het informatiebeveiligingsbeleid wordt minimaal jaarlijks en in aansluiting bij de bestuurs- en Planning & Control (P&C)cycli en externe ontwikkelingen beoordeeld en zo nodig bijgesteld. Overheidsmaatregel- Overheidsmaatregel nummer",
+      "iv_standaard": "IV-beleid"
+    },
+    {
+      "id": "5.01.02",
+      "titel": "Beleidsregels voor informatie beveiliging",
+      "iso_maatregel": "Informatiebeveiligingsbeleid en onderwerpspecifieke\nbeleidsregels moeten worden gedefinieerd, goedgekeurd door het management, gepubliceerd, gecommuniceerd aan en erkend door relevant personeel en relevante belanghebbenden en met \ngeplande tussenpozen en als zich significante wijzigingen voordoen, worden beoordeeld",
+      "risico": "Information security practices are inconsistent or unclear due to missing or outdated policies.",
+      "overheidsmaatregel": "De entiteit heeft een informatiebeveiligingsbeleid opgesteld en vastgesteld door het bestuur van de entiteit. Dit beleid bevat ten minste de volgende punten: � De strategische uitgangspunten en randvoorwaarden die de entiteit hanteert voor informatiebeveiliging en in het bijzonder de inbedding in en afstemming op het algemene beveiligingsbeleid en het informatievoorzieningsbeleid. � De organisatie van de informatiebeveiligingsfunctie, waaronder verantwoordelijkheden, taken en bevoegdheden. � De toewijzing van de verantwoordelijkheden en samenhang van informatiebeveiliging voor ketens van informatiesystemen, de beveiliging van OT, privacybescherming en de verantwoordelijkheden voor de continu�teit van de taakuitvoering van entiteit (BCM) aan lijnmanagers. � De gemeenschappelijke betrouwbaarheidseisen en normen die op de entiteit van toepassing zijn. � De frequentie waarmee het informatiebeveiligingsbeleid wordt ge�valueerd. � De bevordering van het beveiligingsbewustzijn. Het informatiebeveiligingsbeleid wordt minimaal jaarlijks en in aansluiting bij de bestuurs- en Planning & Control (P&C)cycli en externe ontwikkelingen beoordeeld en zo nodig bijgesteld. Overheidsmaatregel- Overheidsmaatregel nummer",
+      "iv_standaard": "IV-beleid"
+    },
+    {
+      "id": "5.02.01",
+      "titel": "Rollen en verantwoordelijkheden bij \ninformatiebeveiligin",
+      "iso_maatregel": "Rollen en verantwoordelijkheden bijinformatiebeveiliging moeten worden gedefinieerd en toegewezen overeenkomstig de behoeften van de organisatie.",
+      "risico": "Security tasks are not performed or are duplicated because roles and responsibilities are unclear.",
+      "overheidsmaatregel": "De leiding van de organisatie heeft vastgelegd wat de verantwoordelijkheden en rollen zijn voor informatiebeveiliging (ook voor OT, BCM en privacybescherming) binnen haar organisatie. Hierbij is specifieke aandacht voor de verantwoordelijkheden en rollen voor het adequaat afhandelen van incidenten.\nLijnmanagers en proceseigenaren die verantwoordelijk zijn voor bedrijfsmiddelen zijn ook verantwoordelijk voor de behandeling van risico’s die op die bedrijfsmiddelen van toepassing zijn.",
+      "iv_standaard": "IV-beleid"
+    },
+    {
+      "id": "5.02.02",
+      "titel": "Rollen en verantwoordelijkheden bij \ninformatiebeveiligin",
+      "iso_maatregel": "Rollen en verantwoordelijkheden bijinformatiebeveiliging moeten worden gedefinieerd en toegewezen overeenkomstig de behoeften van de organisatie.",
+      "risico": "Security tasks are not performed or are duplicated because roles and responsibilities are unclear.",
+      "overheidsmaatregel": "Er is een CISO aangesteld die bevoegd is om onafhankelijk en zelfstandig te adviseren en te rapporteren aan het bestuur en of het controlerend orgaan over informatiebeveiliging.",
+      "iv_standaard": "IV-beleid"
+    },
+    {
+      "id": "5.03.01",
+      "titel": "Functiescheiding",
+      "iso_maatregel": "Conflicterende taken en conflicterende verantwoordelijkheden \nmoeten worden gescheiden.",
+      "risico": "Fraud, error, or misuse occurs because critical duties are not adequately separated.",
+      "overheidsmaatregel": "Geen overheidsmaatregel, zie deel 1 Kader BIO2, verplichtingen BIO",
+      "iv_standaard": "IV-beleid"
+    },
+    {
+      "id": "5.04.01",
+      "titel": "Managementverantwoordelijkheden",
+      "iso_maatregel": "Het management moet van al het personeel eisen dat ze informatiebeveiliging toepassen overeenkom-stig het vastgestelde informatiebeveiligingsbeleid, de \nonderwerpspecifieke beleidsregels en procedures van de organisatie.",
+      "risico": "Information security controls are ineffective due to lack of management oversight and support.",
+      "overheidsmaatregel": "Bestuur en werknemers moeten regelmatig, scholing volgen om cyberbeveiligingsrisico’s te herkennen en te voorkomen en te weten wat men moet doen als er een informatiebeveiligingsincident is.\nDaarbij tonen bestuurders aan dat zij voldoende kennis en vaardigheden hebben om de gevolgen van informatiebeveiligingsrisico’s te beoordelen op de diensten en/of producten die de organisatie levert.",
+      "iv_standaard": "Screening, bewustzijn & opleiding"
+    },
+    {
+      "id": "5.04.02",
+      "titel": "Managementverantwoordelijkheden",
+      "iso_maatregel": "Het management moet van al het personeel eisen dat ze informatiebeveiliging toepassen overeenkom-stig het vastgestelde informatiebeveiligingsbeleid, de \nonderwerpspecifieke beleidsregels en procedures van de organisatie.",
+      "risico": "Information security controls are ineffective due to lack of management oversight and support.",
+      "overheidsmaatregel": "De gedragsregels voor het gebruik van bedrijfsmiddelen zijn voor extern personeel en vrijwilligers in het contract vastgelegd volgens de huisregels of interne gedragsregels.",
+      "iv_standaard": "Screening, bewustzijn & opleiding",
+      "v13_note": "Het bestuur van de entiteit heeft vastgelegd en vastgesteld: � wat de verantwoordelijkheden en rollen zijn voor informatiebeveiliging, privacybescherming, operationele technologie (OT), bedrijfscontinu�teitsmanagement (BCM) binnen haar entiteit; � de samenhang voor informatiebeveiliging, de beveiliging van OT, de continu�teit van de taakuitvoering en BCM van de entiteit. Bij het defini�ren en toewijzen van rollen en verantwoordelijkheden is specifieke aandacht voor het adequaat afhandelen van incidenten. Lijnmanagers en proceseigenaren die verantwoordelijk zijn voor bedrijfsmiddelen zijn ook verantwoordelijk voor de behandeling van risico's die op die bedrijfsmiddelen van toepassing zijn. Er is een CISO aangesteld die bevoegd is om onafhankelijk en zelfstandig te adviseren en te rapporteren aan het bestuur en of het controlerend orgaan over informatiebeveiliging. Geen overheidsmaatregel, zie inleiding deel 2 BIOoverheidsmaatregelen. Het bestuur en de werknemers volgen regelmatig scholing, om cyberbeveiligingsrisico's te herkennen en te voorkomen en te weten wat men moet doen als er een informatiebeveiligingsincident is. Daarbij tonen bestuurders aan dat zij voldoende kennis en vaardigheden hebben om de gevolgen van informatiebeveiligingsrisico's te beoordelen op de diensten en/of producten die de entiteit levert. Verplaatst naar 5.10.02. Verplaatst naar 5.10.03. De entiteit heeft uitgewerkt welke functionarissen met welke (overheids)instanties en toezichthouders formele contacten hebben over informatiebeveiliging. Dit overzicht wordt ten minste jaarlijks geactualiseerd. Geen overheidsmaatregel, zie inleiding deel 2 BIOoverheidsmaatregelen. Geen overheidsmaatregel, zie inleiding deel 2 BIOoverheidsmaatregelen. Bij nieuwe informatiesystemen en bij significante wijzigingen op bestaande informatiesystemen wordt een expliciete risicoafweging op basis van een vastgestelde risicomanagementmethodiek uitgevoerd, om risico's te identificeren en in voldoende mate te beheersen en ook voor het vaststellen van de beveiligingseisen. Overheidsmaatregel- Overheidsmaatregel nummer"
+    },
+    {
+      "id": "5.04.03",
+      "titel": "Managementverantwoordelijkheden",
+      "iso_maatregel": "Het management moet van al het personeel eisen dat ze informatiebeveiliging toepassen overeenkom-stig het vastgestelde informatiebeveiligingsbeleid, de \nonderwerpspecifieke beleidsregels en procedures van de organisatie.",
+      "risico": "Information security controls are ineffective due to lack of management oversight and support.",
+      "overheidsmaatregel": "Alle medewerkers zijn aantoonbaar gewezen op de gedragsregels voor het gebruik van bedrijfsmiddelen.",
+      "iv_standaard": "Screening, bewustzijn & opleiding",
+      "v13_note": "Het bestuur van de entiteit heeft vastgelegd en vastgesteld: � wat de verantwoordelijkheden en rollen zijn voor informatiebeveiliging, privacybescherming, operationele technologie (OT), bedrijfscontinu�teitsmanagement (BCM) binnen haar entiteit; � de samenhang voor informatiebeveiliging, de beveiliging van OT, de continu�teit van de taakuitvoering en BCM van de entiteit. Bij het defini�ren en toewijzen van rollen en verantwoordelijkheden is specifieke aandacht voor het adequaat afhandelen van incidenten. Lijnmanagers en proceseigenaren die verantwoordelijk zijn voor bedrijfsmiddelen zijn ook verantwoordelijk voor de behandeling van risico's die op die bedrijfsmiddelen van toepassing zijn. Er is een CISO aangesteld die bevoegd is om onafhankelijk en zelfstandig te adviseren en te rapporteren aan het bestuur en of het controlerend orgaan over informatiebeveiliging. Geen overheidsmaatregel, zie inleiding deel 2 BIOoverheidsmaatregelen. Het bestuur en de werknemers volgen regelmatig scholing, om cyberbeveiligingsrisico's te herkennen en te voorkomen en te weten wat men moet doen als er een informatiebeveiligingsincident is. Daarbij tonen bestuurders aan dat zij voldoende kennis en vaardigheden hebben om de gevolgen van informatiebeveiligingsrisico's te beoordelen op de diensten en/of producten die de entiteit levert. Verplaatst naar 5.10.02. Verplaatst naar 5.10.03. De entiteit heeft uitgewerkt welke functionarissen met welke (overheids)instanties en toezichthouders formele contacten hebben over informatiebeveiliging. Dit overzicht wordt ten minste jaarlijks geactualiseerd. Geen overheidsmaatregel, zie inleiding deel 2 BIOoverheidsmaatregelen. Geen overheidsmaatregel, zie inleiding deel 2 BIOoverheidsmaatregelen. Bij nieuwe informatiesystemen en bij significante wijzigingen op bestaande informatiesystemen wordt een expliciete risicoafweging op basis van een vastgestelde risicomanagementmethodiek uitgevoerd, om risico's te identificeren en in voldoende mate te beheersen en ook voor het vaststellen van de beveiligingseisen. Overheidsmaatregel- Overheidsmaatregel nummer"
+    },
+    {
+      "id": "5.05.01",
+      "titel": "Contact met overheidsinstanties",
+      "iso_maatregel": "De organisatie moet contact met de relevante instanties leggen en onderhouden",
+      "risico": "Regulatory or legal obligations are breached due to lack of coordination with authorities.",
+      "overheidsmaatregel": "De organisatie heeft uitgewerkt welke functionarissen met welke (overheids)instanties en toezichthouders formele contacten hebben over informatiebeveiliging. Dit overzicht wordt ten minste jaarlijks geactualiseerd.",
+      "iv_standaard": "IV-beleid",
+      "v13_note": "Het bestuur van de entiteit heeft vastgelegd en vastgesteld: � wat de verantwoordelijkheden en rollen zijn voor informatiebeveiliging, privacybescherming, operationele technologie (OT), bedrijfscontinu�teitsmanagement (BCM) binnen haar entiteit; � de samenhang voor informatiebeveiliging, de beveiliging van OT, de continu�teit van de taakuitvoering en BCM van de entiteit. Bij het defini�ren en toewijzen van rollen en verantwoordelijkheden is specifieke aandacht voor het adequaat afhandelen van incidenten. Lijnmanagers en proceseigenaren die verantwoordelijk zijn voor bedrijfsmiddelen zijn ook verantwoordelijk voor de behandeling van risico's die op die bedrijfsmiddelen van toepassing zijn. Er is een CISO aangesteld die bevoegd is om onafhankelijk en zelfstandig te adviseren en te rapporteren aan het bestuur en of het controlerend orgaan over informatiebeveiliging. Geen overheidsmaatregel, zie inleiding deel 2 BIOoverheidsmaatregelen. Het bestuur en de werknemers volgen regelmatig scholing, om cyberbeveiligingsrisico's te herkennen en te voorkomen en te weten wat men moet doen als er een informatiebeveiligingsincident is. Daarbij tonen bestuurders aan dat zij voldoende kennis en vaardigheden hebben om de gevolgen van informatiebeveiligingsrisico's te beoordelen op de diensten en/of producten die de entiteit levert. Verplaatst naar 5.10.02. Verplaatst naar 5.10.03. De entiteit heeft uitgewerkt welke functionarissen met welke (overheids)instanties en toezichthouders formele contacten hebben over informatiebeveiliging. Dit overzicht wordt ten minste jaarlijks geactualiseerd. Geen overheidsmaatregel, zie inleiding deel 2 BIOoverheidsmaatregelen. Geen overheidsmaatregel, zie inleiding deel 2 BIOoverheidsmaatregelen. Bij nieuwe informatiesystemen en bij significante wijzigingen op bestaande informatiesystemen wordt een expliciete risicoafweging op basis van een vastgestelde risicomanagementmethodiek uitgevoerd, om risico's te identificeren en in voldoende mate te beheersen en ook voor het vaststellen van de beveiligingseisen. Overheidsmaatregel- Overheidsmaatregel nummer"
+    },
+    {
+      "id": "5.06.01",
+      "titel": "Contact met speciale \nbelangengroepen",
+      "iso_maatregel": "De organisatie moet contacten met speciale belangengroepen of andere gespecialiseerde beveiligingsfora en beroepsverenigingen leggen en onderhouden.",
+      "risico": "Organization is unaware of emerging threats or best practices due to lack of external engagement.",
+      "overheidsmaatregel": "Geen overheidsmaatregel, zie deel 1 Kader BIO2, verplichtingen BIO",
+      "iv_standaard": "IV-beleid",
+      "v13_note": "Het bestuur van de entiteit heeft vastgelegd en vastgesteld: � wat de verantwoordelijkheden en rollen zijn voor informatiebeveiliging, privacybescherming, operationele technologie (OT), bedrijfscontinu�teitsmanagement (BCM) binnen haar entiteit; � de samenhang voor informatiebeveiliging, de beveiliging van OT, de continu�teit van de taakuitvoering en BCM van de entiteit. Bij het defini�ren en toewijzen van rollen en verantwoordelijkheden is specifieke aandacht voor het adequaat afhandelen van incidenten. Lijnmanagers en proceseigenaren die verantwoordelijk zijn voor bedrijfsmiddelen zijn ook verantwoordelijk voor de behandeling van risico's die op die bedrijfsmiddelen van toepassing zijn. Er is een CISO aangesteld die bevoegd is om onafhankelijk en zelfstandig te adviseren en te rapporteren aan het bestuur en of het controlerend orgaan over informatiebeveiliging. Geen overheidsmaatregel, zie inleiding deel 2 BIOoverheidsmaatregelen. Het bestuur en de werknemers volgen regelmatig scholing, om cyberbeveiligingsrisico's te herkennen en te voorkomen en te weten wat men moet doen als er een informatiebeveiligingsincident is. Daarbij tonen bestuurders aan dat zij voldoende kennis en vaardigheden hebben om de gevolgen van informatiebeveiligingsrisico's te beoordelen op de diensten en/of producten die de entiteit levert. Verplaatst naar 5.10.02. Verplaatst naar 5.10.03. De entiteit heeft uitgewerkt welke functionarissen met welke (overheids)instanties en toezichthouders formele contacten hebben over informatiebeveiliging. Dit overzicht wordt ten minste jaarlijks geactualiseerd. Geen overheidsmaatregel, zie inleiding deel 2 BIOoverheidsmaatregelen. Geen overheidsmaatregel, zie inleiding deel 2 BIOoverheidsmaatregelen. Bij nieuwe informatiesystemen en bij significante wijzigingen op bestaande informatiesystemen wordt een expliciete risicoafweging op basis van een vastgestelde risicomanagementmethodiek uitgevoerd, om risico's te identificeren en in voldoende mate te beheersen en ook voor het vaststellen van de beveiligingseisen. Overheidsmaatregel- Overheidsmaatregel nummer"
+    },
+    {
+      "id": "5.07.01",
+      "titel": "Informatie en analyses over \ndreigingen",
+      "iso_maatregel": "Informatie met betrekking tot informatie-beveiligingsdreigingen moet worden verzameld en geanalyseerd om informatie over dreigingen te produceren.",
+      "risico": "Security controls are ineffective because threats are not identified or understood in time.",
+      "overheidsmaatregel": "Geen overheidsmaatregel, zie deel 1 Kader BIO2, verplichtingen BIO",
+      "iv_standaard": "IV-beleid",
+      "v13_note": "Het bestuur van de entiteit heeft vastgelegd en vastgesteld: � wat de verantwoordelijkheden en rollen zijn voor informatiebeveiliging, privacybescherming, operationele technologie (OT), bedrijfscontinu�teitsmanagement (BCM) binnen haar entiteit; � de samenhang voor informatiebeveiliging, de beveiliging van OT, de continu�teit van de taakuitvoering en BCM van de entiteit. Bij het defini�ren en toewijzen van rollen en verantwoordelijkheden is specifieke aandacht voor het adequaat afhandelen van incidenten. Lijnmanagers en proceseigenaren die verantwoordelijk zijn voor bedrijfsmiddelen zijn ook verantwoordelijk voor de behandeling van risico's die op die bedrijfsmiddelen van toepassing zijn. Er is een CISO aangesteld die bevoegd is om onafhankelijk en zelfstandig te adviseren en te rapporteren aan het bestuur en of het controlerend orgaan over informatiebeveiliging. Geen overheidsmaatregel, zie inleiding deel 2 BIOoverheidsmaatregelen. Het bestuur en de werknemers volgen regelmatig scholing, om cyberbeveiligingsrisico's te herkennen en te voorkomen en te weten wat men moet doen als er een informatiebeveiligingsincident is. Daarbij tonen bestuurders aan dat zij voldoende kennis en vaardigheden hebben om de gevolgen van informatiebeveiligingsrisico's te beoordelen op de diensten en/of producten die de entiteit levert. Verplaatst naar 5.10.02. Verplaatst naar 5.10.03. De entiteit heeft uitgewerkt welke functionarissen met welke (overheids)instanties en toezichthouders formele contacten hebben over informatiebeveiliging. Dit overzicht wordt ten minste jaarlijks geactualiseerd. Geen overheidsmaatregel, zie inleiding deel 2 BIOoverheidsmaatregelen. Geen overheidsmaatregel, zie inleiding deel 2 BIOoverheidsmaatregelen. Bij nieuwe informatiesystemen en bij significante wijzigingen op bestaande informatiesystemen wordt een expliciete risicoafweging op basis van een vastgestelde risicomanagementmethodiek uitgevoerd, om risico's te identificeren en in voldoende mate te beheersen en ook voor het vaststellen van de beveiligingseisen. Overheidsmaatregel- Overheidsmaatregel nummer"
+    },
+    {
+      "id": "5.08.01",
+      "titel": "Informatiebeveiliging in \nprojectmanagement",
+      "iso_maatregel": "Informatiebeveiliging moet worden geïntegreerd in \nprojectmanagement.",
+      "risico": "Projects introduce security weaknesses due to lack of security integration.",
+      "overheidsmaatregel": "Bij nieuwe informatiesystemen en bij significante wijzigingen op bestaande informatiesystemen moet een expliciete risicoafweging op basis van de door de organisatie vastgestelde risicomanagementmethodiek worden uitgevoerd, om risico’s te identificeren en in voldoende mate te beheersen en ook voor het vaststellen van de beveiligingseisen.",
+      "iv_standaard": "Informatiebeveiliging binnen projecten",
+      "v13_note": "Het bestuur van de entiteit heeft vastgelegd en vastgesteld: � wat de verantwoordelijkheden en rollen zijn voor informatiebeveiliging, privacybescherming, operationele technologie (OT), bedrijfscontinu�teitsmanagement (BCM) binnen haar entiteit; � de samenhang voor informatiebeveiliging, de beveiliging van OT, de continu�teit van de taakuitvoering en BCM van de entiteit. Bij het defini�ren en toewijzen van rollen en verantwoordelijkheden is specifieke aandacht voor het adequaat afhandelen van incidenten. Lijnmanagers en proceseigenaren die verantwoordelijk zijn voor bedrijfsmiddelen zijn ook verantwoordelijk voor de behandeling van risico's die op die bedrijfsmiddelen van toepassing zijn. Er is een CISO aangesteld die bevoegd is om onafhankelijk en zelfstandig te adviseren en te rapporteren aan het bestuur en of het controlerend orgaan over informatiebeveiliging. Geen overheidsmaatregel, zie inleiding deel 2 BIOoverheidsmaatregelen. Het bestuur en de werknemers volgen regelmatig scholing, om cyberbeveiligingsrisico's te herkennen en te voorkomen en te weten wat men moet doen als er een informatiebeveiligingsincident is. Daarbij tonen bestuurders aan dat zij voldoende kennis en vaardigheden hebben om de gevolgen van informatiebeveiligingsrisico's te beoordelen op de diensten en/of producten die de entiteit levert. Verplaatst naar 5.10.02. Verplaatst naar 5.10.03. De entiteit heeft uitgewerkt welke functionarissen met welke (overheids)instanties en toezichthouders formele contacten hebben over informatiebeveiliging. Dit overzicht wordt ten minste jaarlijks geactualiseerd. Geen overheidsmaatregel, zie inleiding deel 2 BIOoverheidsmaatregelen. Geen overheidsmaatregel, zie inleiding deel 2 BIOoverheidsmaatregelen. Bij nieuwe informatiesystemen en bij significante wijzigingen op bestaande informatiesystemen wordt een expliciete risicoafweging op basis van een vastgestelde risicomanagementmethodiek uitgevoerd, om risico's te identificeren en in voldoende mate te beheersen en ook voor het vaststellen van de beveiligingseisen. Overheidsmaatregel- Overheidsmaatregel nummer"
+    },
+    {
+      "id": "5.09.01",
+      "titel": "Inventarisatie van informatie en \nandere gerelateerde bedrijfsmiddelen",
+      "iso_maatregel": "Er moet een inventarislijst van informatie en andere \ngerelateerde bedrijfsmiddelen, met inbegrip van de eigenaren, worden opgesteld en onderhouden.",
+      "risico": "Assets are not adequately protected because they are unknown or unmanaged.",
+      "overheidsmaatregel": "Er is een inventaris van bedrijfsmiddelen die van belang zijn voor informatieverwerking, met inbegrip van OT.\nDe inventaris omvat alle eigenschappen die nodig zijn voor het beheer en onderhoud. In de inventaris zijn ook opgenomen: bedrijfsmiddelen op afstand, cloud-omgevingen en bedrijfsmiddelen die regelmatig zijn verbonden met de netwerkinfrastructuur maar niet onder controle van de organisatie staan.De volledigheid en actualiteit van de inventaris wordt periodiek gecontroleerd met tussenpozen die passend zijn voor de frequentie waarmee wijzigingen optreden.",
+      "iv_standaard": "Bedrijfsmiddelenbeheer"
+    },
+    {
+      "id": "5.10.01",
+      "titel": "Aanvaardbaar gebruik van informatie \nen andere gerelateerde \nbedrijfsmiddelen",
+      "iso_maatregel": "Regels voor het aanvaardbaar gebruik van en procedures voor het omgaan met informatie en andere gerelateerde bedrijfsmiddelen moeten worden geïdentificeerd, gedocumenteerd en geïmplementeerd",
+      "risico": "Information and assets are misused due to lack of usage rules.",
+      "overheidsmaatregel": "Geen overheidsmaatregel, zie deel 1 Kader BIO2, verplichtingen BIO",
+      "iv_standaard": "Bedrijfsmiddelenbeheer"
+    },
+    {
+      "id": "5.11.01",
+      "titel": "Retourneren van bedrijfsmiddelen",
+      "iso_maatregel": "Personeel en andere belanghebbenden, al naargelang de situatie, moeten alle bedrijfsmiddelen van de organisatie die ze in hun bezit hebben bij beëindiging van hun dienstverband, contract of overeenkomst retourneren",
+      "risico": "Information is exposed or lost when assets are not returned after role termination.",
+      "overheidsmaatregel": "Geen overheidsmaatregel, zie deel 1 Kader BIO2, verplichtingen BIO",
+      "iv_standaard": "Bedrijfsmiddelenbeheer"
+    },
+    {
+      "id": "5.12.01",
+      "titel": "Classificeren van informatie",
+      "iso_maatregel": "Informatie moet worden geclassificeerd volgens de \ninformatiebeveiligingsbehoeften van de organisatie, op basis van de eisen voor vertrouwelijkheid, integriteit, beschikbaarheid en relevante eisen van belanghebbenden.",
+      "risico": "Sensitive information is inadequately protected due to incorrect classification.",
+      "overheidsmaatregel": "Informatie in alle informatiesystemen is door middel van een expliciete risicoafweging geclassificeerd.\nHierbij wordt gebruik gemaakt van een vastgestelde impactclassificatiemethodiek die onderdeel is van de vastgestelde risicomanagementmethodiek.",
+      "iv_standaard": "Informatie classificatie"
+    },
+    {
+      "id": "5.13.01",
+      "titel": "Labelen van informatie",
+      "iso_maatregel": "Om informatie te labelen moet een passende reeks procedures worden ontwikkeld en geïmplementeerd in overeenstemming met het informatieclassificatie-schema dat is vastgesteld door de organisatie.",
+      "risico": "Information is mishandled because its sensitivity is not clearly identified.",
+      "overheidsmaatregel": "Geen overheidsmaatregel, zie deel 1 Kader BIO2, verplichtingen BIO",
+      "iv_standaard": "Informatie classificatie"
+    },
+    {
+      "id": "5.14.01",
+      "titel": "Overdragen van informatie",
+      "iso_maatregel": "Er moeten regels, procedures of overeenkomsten voor informatieoverdracht zijn ingesteld voor alle soorten van communicatiefaciliteiten binnen de organisatie en tussen de organisatie en andere partijen.",
+      "risico": "Information is disclosed, altered, or lost during transfer.",
+      "overheidsmaatregel": "Internetfacing-informatiesystemen en e-mail-berichtenverkeer moeten blijvend voldoen aan de verplichte standaarden, zie hiervoor de website van het Forum Standaardisatie.\nHierop wordt gestuurd met de metingen van internet.nl. Daarbij dienen alle onderdelen te worden ingesteld zodat een optimale beveiliging wordt bereikt zonder afbreuk te doen aan de functionaliteit van de geboden dienst.",
+      "iv_standaard": "Informatie classificatie"
+    },
+    {
+      "id": "5.14.02",
+      "titel": "Overdragen van informatie",
+      "iso_maatregel": "Er moeten regels, procedures of overeenkomsten voor informatieoverdracht zijn ingesteld voor alle soorten van communicatiefaciliteiten binnen de organisatie en tussen de organisatie en andere partijen.",
+      "risico": "Information is disclosed, altered, or lost during transfer.",
+      "overheidsmaatregel": "Maak bij openbaar webverkeer van gevoelige gegevens gebruik van ten minste publiek vertrouwde Organization Validated (OV)-certificaten.Maak bij intern webverkeer voor gevoelige gegevens gebruik van ten minste publieke vertrouwde OV-certificaten of private PKIo-certificaten. Hogere eisen aan certificaten kunnen voortvloeien uit een risicoanalyse, aansluitvoorwaarden of wetgeving.",
+      "iv_standaard": "Informatie classificatie"
+    },
+    {
+      "id": "5.14.03",
+      "titel": "Overdragen van informatie",
+      "iso_maatregel": "Er moeten regels, procedures of overeenkomsten voor informatieoverdracht zijn ingesteld voor alle soorten van communicatiefaciliteiten binnen de organisatie en tussen de organisatie en andere partijen.",
+      "risico": "Information is disclosed, altered, or lost during transfer.",
+      "overheidsmaatregel": "Geavanceerde en/of gekwalificeerde elektronische handtekeningen moeten voldoen aan de Advanced Electronic Signatures (AdES Baseline Profiles), zoals opgenomen in de Lijst open standaarden van Forum Standaardisatie.",
+      "iv_standaard": "Informatie classificatie"
+    },
+    {
+      "id": "5.14.04",
+      "titel": "Overdragen van informatie",
+      "iso_maatregel": "Er moeten regels, procedures of overeenkomsten voor informatieoverdracht zijn ingesteld voor alle soorten van communicatiefaciliteiten binnen de organisatie en tussen de organisatie en andere partijen.",
+      "risico": "Information is disclosed, altered, or lost during transfer.",
+      "overheidsmaatregel": "Van alle internetfacing-informatiesystemen, webapplicaties, IP-adressen en API’s is een actuele registratie.",
+      "iv_standaard": "Informatie classificatie"
+    },
+    {
+      "id": "5.14.05",
+      "titel": "Overdragen van informatie",
+      "iso_maatregel": "Er moeten regels, procedures of overeenkomsten voor informatieoverdracht zijn ingesteld voor alle soorten van communicatiefaciliteiten binnen de organisatie en tussen de organisatie en andere partijen.",
+      "risico": "Information is disclosed, altered, or lost during transfer.",
+      "overheidsmaatregel": "Publiek toegankelijke websites worden bekend gemaakt via Register Internetdomeinen Overheid.\nDeze informatie wordt ten minste iedere zes maanden geactualiseerd.",
+      "iv_standaard": "Informatie classificatie"
+    },
+    {
+      "id": "5.15.01",
+      "titel": "Toegangsbeveiliging",
+      "iso_maatregel": "Er moeten regels op basis van bedrijfs- en \ninformatiebeveiligingseisen worden vastgesteld en \ngeïmplementeerd om de fysieke en logische toegang tot informatie en andere gerelateerde bedrijfsmiddelen te beheersen.",
+      "risico": "Unauthorized access occurs due to inadequate access control policies.",
+      "overheidsmaatregel": "Toegang tot een vertrouwde zone is toegestaan in twee situaties:\n1. vanaf geauthentiseerde apparatuur of;\n2. vanuit programmatuur die draait binnen een veilige schil.",
+      "iv_standaard": "Logische toegangsbeveiliging"
+    },
+    {
+      "id": "5.16.01",
+      "titel": "Identiteitsbeheer",
+      "iso_maatregel": "De volledige levenscyclus van identiteiten moet worden beheerd.",
+      "risico": "Unauthorized users gain access due to improper identity lifecycle management.",
+      "overheidsmaatregel": "Geavanceerde en/of gekwalificeerde elektronische handtekeningen voldoen aan de Advanced Electronic Signatures (AdES Baseline Profiles), zoals opgenomen in de Lijst open standaarden van Forum Standaardisatie. Van alle internetfacing-informatiesystemen, webapplicaties, IP-adressen en API's is er een actuele registratie. Publiek toegankelijke websites worden bekend gemaakt via het Register Internetdomeinen Overheid (RIO). Deze informatie wordt ten minste iedere zes maanden geactualiseerd. Toegang tot een vertrouwde zone is toegestaan in twee situaties: 1. vanaf geauthentiseerde apparatuur of; 2. vanuit programmatuur die draait binnen een veilige schil. Er is een sluitende formele registratie- en afmeldprocedure voor het beheren van gebruikersidentificaties. Het gebruiken van groepsaccounts is niet toegestaan, tenzij de proceseigenaar dit motiveert, vastlegt en afstemt met de CISO. Overheidsmaatregel- Overheidsmaatregel nummer",
+      "iv_standaard": "Logische toegangsbeveiliging"
+    },
+    {
+      "id": "5.16.02",
+      "titel": "Identiteitsbeheer",
+      "iso_maatregel": "De volledige levenscyclus van identiteiten moet worden beheerd.",
+      "risico": "Unauthorized users gain access due to improper identity lifecycle management.",
+      "overheidsmaatregel": "Geavanceerde en/of gekwalificeerde elektronische handtekeningen voldoen aan de Advanced Electronic Signatures (AdES Baseline Profiles), zoals opgenomen in de Lijst open standaarden van Forum Standaardisatie. Van alle internetfacing-informatiesystemen, webapplicaties, IP-adressen en API's is er een actuele registratie. Publiek toegankelijke websites worden bekend gemaakt via het Register Internetdomeinen Overheid (RIO). Deze informatie wordt ten minste iedere zes maanden geactualiseerd. Toegang tot een vertrouwde zone is toegestaan in twee situaties: 1. vanaf geauthentiseerde apparatuur of; 2. vanuit programmatuur die draait binnen een veilige schil. Er is een sluitende formele registratie- en afmeldprocedure voor het beheren van gebruikersidentificaties. Het gebruiken van groepsaccounts is niet toegestaan, tenzij de proceseigenaar dit motiveert, vastlegt en afstemt met de CISO. Overheidsmaatregel- Overheidsmaatregel nummer",
+      "iv_standaard": "Logische toegangsbeveiliging"
+    },
+    {
+      "id": "5.17.01",
+      "titel": "Authenticatie-informatie",
+      "iso_maatregel": "De toewijzing en het beheer van authenticatie-informatie moet worden beheerst door middel van een beheerproces waarvan het adviseren van het personeel over de juiste manier van omgaan met authenticatie-informatie deel uitmaakt",
+      "risico": "Systems are compromised due to weak or exposed authentication credentials.",
+      "overheidsmaatregel": "Pas multi-factorauthenticatie (MFA) ten minste toe voor het primaire aanloggen op de digitale werkomgeving, bij accounts voor via het internet bereikbare voorzieningen en accounts die beheerrechten hebben en in andere situaties waar uit de risicoanalyse blijkt dat dit een passende oplossing is.\n\nPas MFA toe in deze twee vormen:\n1. Wachtwoordloze toegang, zoals een pincode in combinatie met een hardware token of persoonlijk uniek \n    certificaat (passkey).\n2. Wachtwoordtoegang in combinatie met minimaal een tweede factor.\n\nIndien MFA niet mogelijk is voor deze accounts, neem andere mitigerende maatregelen. Betrek de CISO hierbij en laat ze goedkeuren door de proceseigenaar. Combineer waar mogelijk en veilig, MFA met federatieve authenticatievoorzieningen zoals Single Sign On en een Stepping Stone-oplossing. Voor beheer en monitoring van authenticatiegegevens:\n\n- geef authenticatie-informatie uit met formele vastgestelde procedures en pas \n  nadat de identiteit van de gebruiker met voldoende zekerheid is vastgesteld;\n- definieer Use Cases voor misbruik van authenticatiegegevens, monitor deze \n  en neem passende actie bij het optreden ervan. Deze Use Cases omvatten in \n  ieder geval inlogpogingen van ongebruikelijke plekken en pieken in mislukte \n  inlogpogingen.",
+      "iv_standaard": "Logische toegangsbeveiliging"
+    },
+    {
+      "id": "5.17.02",
+      "titel": "Authenticatie-informatie",
+      "iso_maatregel": "De toewijzing en het beheer van authenticatie-informatie moet worden beheerst door middel van een beheerproces waarvan het adviseren van het personeel over de juiste manier van omgaan met authenticatie-informatie deel uitmaakt",
+      "risico": "Systems are compromised due to weak or exposed authentication credentials.",
+      "overheidsmaatregel": "De entiteit past multi-factorauthenticatie (MFA) ten minste toe voor het primaire aanloggen op de digitale werkomgeving, bij accounts voor via het internet bereikbare voorzieningen en accounts die beheerrechten hebben en in andere situaties waar uit de risicoanalyse blijkt dat dit een passende oplossing is. De entiteit past MFA toe in deze twee vormen: 1. Wachtwoordloze toegang, zoals een pincode in combinatie met een hardware token of persoonlijk uniek certificaat (passkey). 2. Wachtwoordtoegang in combinatie met minimaal een tweede factor. Indien MFA niet mogelijk is voor deze accounts, worden andere mitigerende maatregelen genomen. Bij het nemen van mitigerende maatregelen wordt de CISO betrokken. De proceseigenaar keurt de mitigerende maatregelen goed. Waar mogelijk en veilig wordt MFA met federatieve authenticatievoorzieningen zoals Single Sign On en een Stepping Stone-oplossing worden gecombineerd toegepast. Voor beheer en monitoring van authenticatiegegevens: � wordt authenticatie-informatie uitgegeven met formele vastgestelde procedures, nadat de identiteit van de gebruiker met voldoende zekerheid is vastgesteld; � worden Use Cases voor misbruik van authenticatiegegevens gedefinieerd, worden deze gemonitord en wordt passende actie ondernomen bij het optreden ervan. Deze Use Cases omvatten in ieder geval inlogpogingen van ongebruikelijke plekken en pieken in mislukte inlogpogingen. De entiteit biedt aan alle medewerkers een wachtwoordmanager of vergelijkbare oplossing aan. De eisen aan wachtwoorden worden geautomatiseerd afgedwongen. Het maken en aanpassen van accounts met bijzondere rechten wordt gemonitord. Indien deze wijzigingen ongeautoriseerd zijn, is dit een informatiebeveiligingsincident en wordt dat als zodanig vastgelegd en afgehandeld. Alle uitgegeven toegangsrechten worden minimaal eenmaal per jaar beoordeeld. Een risicoafweging bepaalt of dit sneller moet. Overheidsmaatregel- Overheidsmaatregel nummer",
+      "iv_standaard": "Logische toegangsbeveiliging"
+    },
+    {
+      "id": "5.17.03",
+      "titel": "Authenticatie-informatie",
+      "iso_maatregel": "De toewijzing en het beheer van authenticatie-informatie moet worden beheerst door middel van een beheerproces waarvan het adviseren van het personeel over de juiste manier van omgaan met authenticatie-informatie deel uitmaakt",
+      "risico": "Systems are compromised due to weak or exposed authentication credentials.",
+      "overheidsmaatregel": "De entiteit past multi-factorauthenticatie (MFA) ten minste toe voor het primaire aanloggen op de digitale werkomgeving, bij accounts voor via het internet bereikbare voorzieningen en accounts die beheerrechten hebben en in andere situaties waar uit de risicoanalyse blijkt dat dit een passende oplossing is. De entiteit past MFA toe in deze twee vormen: 1. Wachtwoordloze toegang, zoals een pincode in combinatie met een hardware token of persoonlijk uniek certificaat (passkey). 2. Wachtwoordtoegang in combinatie met minimaal een tweede factor. Indien MFA niet mogelijk is voor deze accounts, worden andere mitigerende maatregelen genomen. Bij het nemen van mitigerende maatregelen wordt de CISO betrokken. De proceseigenaar keurt de mitigerende maatregelen goed. Waar mogelijk en veilig wordt MFA met federatieve authenticatievoorzieningen zoals Single Sign On en een Stepping Stone-oplossing worden gecombineerd toegepast. Voor beheer en monitoring van authenticatiegegevens: � wordt authenticatie-informatie uitgegeven met formele vastgestelde procedures, nadat de identiteit van de gebruiker met voldoende zekerheid is vastgesteld; � worden Use Cases voor misbruik van authenticatiegegevens gedefinieerd, worden deze gemonitord en wordt passende actie ondernomen bij het optreden ervan. Deze Use Cases omvatten in ieder geval inlogpogingen van ongebruikelijke plekken en pieken in mislukte inlogpogingen. De entiteit biedt aan alle medewerkers een wachtwoordmanager of vergelijkbare oplossing aan. De eisen aan wachtwoorden worden geautomatiseerd afgedwongen. Het maken en aanpassen van accounts met bijzondere rechten wordt gemonitord. Indien deze wijzigingen ongeautoriseerd zijn, is dit een informatiebeveiligingsincident en wordt dat als zodanig vastgelegd en afgehandeld. Alle uitgegeven toegangsrechten worden minimaal eenmaal per jaar beoordeeld. Een risicoafweging bepaalt of dit sneller moet. Overheidsmaatregel- Overheidsmaatregel nummer",
+      "iv_standaard": "Logische toegangsbeveiliging"
+    },
+    {
+      "id": "5.18.01",
+      "titel": "Toegangsrechten",
+      "iso_maatregel": "Toegangsrechten voor informatie en andere gerelateerde bedrijfsmiddelen moeten worden verstrekt, beoordeeld, aangepast en verwijderd overeenkomstig het onderwerpspecifieke beleid en de regels inzake toegangsbeveiliging van de organisatie.",
+      "risico": "Excessive or outdated access rights enable unauthorized actions.",
+      "overheidsmaatregel": "De entiteit past multi-factorauthenticatie (MFA) ten minste toe voor het primaire aanloggen op de digitale werkomgeving, bij accounts voor via het internet bereikbare voorzieningen en accounts die beheerrechten hebben en in andere situaties waar uit de risicoanalyse blijkt dat dit een passende oplossing is. De entiteit past MFA toe in deze twee vormen: 1. Wachtwoordloze toegang, zoals een pincode in combinatie met een hardware token of persoonlijk uniek certificaat (passkey). 2. Wachtwoordtoegang in combinatie met minimaal een tweede factor. Indien MFA niet mogelijk is voor deze accounts, worden andere mitigerende maatregelen genomen. Bij het nemen van mitigerende maatregelen wordt de CISO betrokken. De proceseigenaar keurt de mitigerende maatregelen goed. Waar mogelijk en veilig wordt MFA met federatieve authenticatievoorzieningen zoals Single Sign On en een Stepping Stone-oplossing worden gecombineerd toegepast. Voor beheer en monitoring van authenticatiegegevens: � wordt authenticatie-informatie uitgegeven met formele vastgestelde procedures, nadat de identiteit van de gebruiker met voldoende zekerheid is vastgesteld; � worden Use Cases voor misbruik van authenticatiegegevens gedefinieerd, worden deze gemonitord en wordt passende actie ondernomen bij het optreden ervan. Deze Use Cases omvatten in ieder geval inlogpogingen van ongebruikelijke plekken en pieken in mislukte inlogpogingen. De entiteit biedt aan alle medewerkers een wachtwoordmanager of vergelijkbare oplossing aan. De eisen aan wachtwoorden worden geautomatiseerd afgedwongen. Het maken en aanpassen van accounts met bijzondere rechten wordt gemonitord. Indien deze wijzigingen ongeautoriseerd zijn, is dit een informatiebeveiligingsincident en wordt dat als zodanig vastgelegd en afgehandeld. Alle uitgegeven toegangsrechten worden minimaal eenmaal per jaar beoordeeld. Een risicoafweging bepaalt of dit sneller moet. Overheidsmaatregel- Overheidsmaatregel nummer",
+      "iv_standaard": "Logische toegangsbeveiliging"
+    },
+    {
+      "id": "5.18.02",
+      "titel": "Toegangsrechten",
+      "iso_maatregel": "Toegangsrechten voor informatie en andere gerelateerde bedrijfsmiddelen moeten worden verstrekt, beoordeeld, aangepast en verwijderd overeenkomstig het onderwerpspecifieke beleid en de regels inzake toegangsbeveiliging van de organisatie.",
+      "risico": "Excessive or outdated access rights enable unauthorized actions.",
+      "overheidsmaatregel": "De entiteit past multi-factorauthenticatie (MFA) ten minste toe voor het primaire aanloggen op de digitale werkomgeving, bij accounts voor via het internet bereikbare voorzieningen en accounts die beheerrechten hebben en in andere situaties waar uit de risicoanalyse blijkt dat dit een passende oplossing is. De entiteit past MFA toe in deze twee vormen: 1. Wachtwoordloze toegang, zoals een pincode in combinatie met een hardware token of persoonlijk uniek certificaat (passkey). 2. Wachtwoordtoegang in combinatie met minimaal een tweede factor. Indien MFA niet mogelijk is voor deze accounts, worden andere mitigerende maatregelen genomen. Bij het nemen van mitigerende maatregelen wordt de CISO betrokken. De proceseigenaar keurt de mitigerende maatregelen goed. Waar mogelijk en veilig wordt MFA met federatieve authenticatievoorzieningen zoals Single Sign On en een Stepping Stone-oplossing worden gecombineerd toegepast. Voor beheer en monitoring van authenticatiegegevens: � wordt authenticatie-informatie uitgegeven met formele vastgestelde procedures, nadat de identiteit van de gebruiker met voldoende zekerheid is vastgesteld; � worden Use Cases voor misbruik van authenticatiegegevens gedefinieerd, worden deze gemonitord en wordt passende actie ondernomen bij het optreden ervan. Deze Use Cases omvatten in ieder geval inlogpogingen van ongebruikelijke plekken en pieken in mislukte inlogpogingen. De entiteit biedt aan alle medewerkers een wachtwoordmanager of vergelijkbare oplossing aan. De eisen aan wachtwoorden worden geautomatiseerd afgedwongen. Het maken en aanpassen van accounts met bijzondere rechten wordt gemonitord. Indien deze wijzigingen ongeautoriseerd zijn, is dit een informatiebeveiligingsincident en wordt dat als zodanig vastgelegd en afgehandeld. Alle uitgegeven toegangsrechten worden minimaal eenmaal per jaar beoordeeld. Een risicoafweging bepaalt of dit sneller moet. Overheidsmaatregel- Overheidsmaatregel nummer",
+      "iv_standaard": "Logische toegangsbeveiliging"
+    },
+    {
+      "id": "5.19.01",
+      "titel": "Informatiebeveiliging in \nleveranciersrelaties",
+      "iso_maatregel": "Er moeten processen en procedures worden vastgesteld en geïmplementeerd om de informatiebeveiligingsrisico’s in verband met het gebruik van producten of diensten van de \nleverancier te beheersen.",
+      "risico": "Suppliers compromise information security due to insufficient controls.",
+      "overheidsmaatregel": "Bij offerteaanvragen waar informatie(voorziening) een rol speelt, zijn informatiebeveiligingseisen (beschikbaarheid, integriteit en vertrouwelijkheid) onderdeel van het hele pakket aan inkoopeisen.\nDe informatiebeveiligingseisen zijn gebaseerd op een expliciete risicoafweging.",
+      "iv_standaard": "Leveranciersbeheer - Inkoop"
+    },
+    {
+      "id": "5.20.01",
+      "titel": "Adresseren van informatiebeveiliging \nin leveranciersovereenkomsten",
+      "iso_maatregel": "Relevante informatiebeveiligingseisen moeten worden vastgesteld en met elke leverancier op basis van het type leveranciersrelatie worden overeengekomen",
+      "risico": "Security expectations are unenforceable due to missing contractual requirements.",
+      "overheidsmaatregel": "De beveiligingseisen uit de offerteaanvraag worden expliciet opgenomen in de (inkoop)contracten waar de verwerking van informatie een rol speelt.",
+      "iv_standaard": "Leveranciersbeheer - Inkoop"
+    },
+    {
+      "id": "5.20.02",
+      "titel": "Adresseren van informatiebeveiliging \nin leveranciersovereenkomsten",
+      "iso_maatregel": "Relevante informatiebeveiligingseisen moeten worden vastgesteld en met elke leverancier op basis van het type leveranciersrelatie worden overeengekomen",
+      "risico": "Security expectations are unenforceable due to missing contractual requirements.",
+      "overheidsmaatregel": "Sluit waar mogelijk algemene voorwaarden van leveranciers expliciet uit en neem eventueel aanvullende voorwaarden op. Als uitsluiten niet mogelijk is, beoordeel dan de risico’s.\nExpliciet is gemaakt welke consequenties geaccepteerd worden, welke gemitigeerd moeten zijn en welke voorwaarden niet of nooit geaccepteerd mogen worden bij het aangaan van de overeenkomst.",
+      "iv_standaard": "Leveranciersbeheer - Inkoop"
+    },
+    {
+      "id": "5.20.03",
+      "titel": "Adresseren van informatiebeveiliging \nin leveranciersovereenkomsten",
+      "iso_maatregel": "Relevante informatiebeveiligingseisen moeten worden vastgesteld en met elke leverancier op basis van het type leveranciersrelatie worden overeengekomen",
+      "risico": "Security expectations are unenforceable due to missing contractual requirements.",
+      "overheidsmaatregel": "In het inkoopcontract wordt opgenomen dat de leverancier aantoont dat hij aan alle gestelde eisen voldoet in opzet, bestaan en werking, op basis van onderzoeken van onafhankelijke derden. Deze onderzoeken hebben een scope die dekkend is voor de gecontracteerde dienstverlening. Hierbij is expliciet aandacht voor de toeleveringsketen en hoe de leverancier zijn leveranciersmanagement ingeregeld heeft, zie overheidsmaatregel 5.21.01. Dit toont de leverancier jaarlijks opnieuw aan.",
+      "iv_standaard": "Leveranciersbeheer - Inkoop"
+    },
+    {
+      "id": "5.21.02",
+      "titel": "Beheren van informatiebeveiliging in \nde ICT-toeleveringsketen",
+      "iso_maatregel": "Er moeten processen en procedures worden bepaald en geïmplementeerd om de informatiebeveiligings-risico’s in verband met de toeleveringsketen van ICT-producten en -diensten te beheersen.",
+      "risico": "Compromised components or services introduce security vulnerabilities.",
+      "overheidsmaatregel": "Voorafgaand aan het afsluiten van de overeenkomst geeft de leverancier inzicht in de keten van toeleveranciers en eventuele risico’s daarin. De overheidsorganisatie beoordeelt of de risico’s acceptabel zijn.",
+      "iv_standaard": "Leveranciersbeheer - Inkoop"
+    },
+    {
+      "id": "5.21.03",
+      "titel": "Beheren van informatiebeveiliging in \nde ICT-toeleveringsketen",
+      "iso_maatregel": "Er moeten processen en procedures worden bepaald en geïmplementeerd om de informatiebeveiligings-risico’s in verband met de toeleveringsketen van ICT-producten en -diensten te beheersen.",
+      "risico": "Compromised components or services introduce security vulnerabilities.",
+      "overheidsmaatregel": "De overheidsorganisatie borgt dat de beveiligingseisen aan de leverancier onverminderd van toepassing zijn op de keten van toeleveranciers, tenzij die eisen niet relevant zijn gezien de aard van de dienstverlening door de toeleverancier.\nIndien informatiebeveiligingseisen zijn uitgesloten, maakt de leverancier dat inzichtelijk, inclusief een onderbouwing.",
+      "iv_standaard": "Leveranciersbeheer - contractbeheer"
+    },
+    {
+      "id": "5.21.04",
+      "titel": "Beheren van informatiebeveiliging in \nde ICT-toeleveringsketen",
+      "iso_maatregel": "Er moeten processen en procedures worden bepaald en geïmplementeerd om de informatiebeveiligings-risico’s in verband met de toeleveringsketen van ICT-producten en -diensten te beheersen.",
+      "risico": "Compromised components or services introduce security vulnerabilities.",
+      "overheidsmaatregel": "Gedurende de looptijd geeft de leverancier veranderingen in de keten van toeleveranciers door, inclusief risico’s daarin. Dit omvat minimaal kwetsbaarheden en informatiebeveiligingsincidenten die de dienstverlening aan de overheidsorganisatie kunnen raken.",
+      "iv_standaard": "Leveranciersbeheer - contractbeheer"
+    },
+    {
+      "id": "5.22.01",
+      "titel": "Monitoren, beoordelen en het \nbeheren van wijzigingen van \nleveranciersdiensten",
+      "iso_maatregel": "De organisatie moet de informatiebeveiligings-praktijken en de dienstverlening van leveranciers regelmatig monitoren, beoordelen, evalueren en veranderingen daaraan beheren.",
+      "risico": "Supplier security degradation goes unnoticed.",
+      "overheidsmaatregel": "Op basis van het door de leverancier aangeleverde bewijsmateriaal, zie overheidsmaatregel 5.20.03, is de proceseigenaar verantwoordelijk voor het jaarlijks beoordelen dat leverancier voldoet aan de gestelde informatiebeveiligingseisen, het vaststellen van eventuele beveiligingsrisico’s, het (laten) nemen van mitigerende maatregelen en het accepteren van rest-risico’s.",
+      "iv_standaard": "Leveranciersbeheer - contractbeheer"
+    },
+    {
+      "id": "5.22.02",
+      "titel": "Monitoren, beoordelen en het \nbeheren van wijzigingen van \nleveranciersdiensten",
+      "iso_maatregel": "De organisatie moet de informatiebeveiligings-praktijken en de dienstverlening van leveranciers regelmatig monitoren, beoordelen, evalueren en veranderingen daaraan beheren.",
+      "risico": "Supplier security degradation goes unnoticed.",
+      "overheidsmaatregel": "Er is een actuele registratie van leveranciers en afgesloten contracten.",
+      "iv_standaard": "Leveranciersbeheer - contractbeheer"
+    },
+    {
+      "id": "5.23.01",
+      "titel": "Informatiebeveiliging voor het \ngebruik van clouddiensten",
+      "iso_maatregel": "Processen voor het aanschaffen, gebruiken, beheren en beëindigen van clouddiensten moeten overeenkomstig de informatiebeveiligingseisen van de organisatie worden opgesteld",
+      "risico": "Cloud services expose data due to unclear shared security responsibilities.",
+      "overheidsmaatregel": "Stel beleid op dat toeziet op het inventariseren, classificeren, selecteren, beoordelen en managen van Cloud Service Providers (CSP) en het beëindigen van dienstverlening door CSP’s. Implementeer het beleid.\nHerzie dit beleid minimaal eens per drie jaar. Neem in de contracten op welke situaties aanleiding kunnen zijn tot ontbinding van het contract. Wanneer zich belangrijke wijzigingen bij de leverancier optreden, beoordeel de risico’s daarvan en neem passende maatregelen.",
+      "iv_standaard": "Leveranciersbeheer - contractbeheer"
+    },
+    {
+      "id": "5.24.01",
+      "titel": "Plannen en voorbereiden van het \nbeheer van informatie-beveiligingsincidenten",
+      "iso_maatregel": "De organisatie moet plannen opstellen voor, en zich \nvoorbereiden op, het beheren van \ninformatiebeveiligingsincidenten door processen, rollen en verantwoordelijkheden voor het beheer van informatie_x0002_beveiligingsincidenten te definiëren, vast te stellen en te communiceren.",
+      "risico": "Incidents escalate due to lack of preparedness.",
+      "overheidsmaatregel": "Voorafgaand aan het afsluiten van de overeenkomst geeft de leverancier inzicht in de keten van toeleveranciers en eventuele risico's daarin. De entiteit beoordeelt of de risico's acceptabel zijn. De entiteit borgt dat de beveiligingseisen aan de leverancier onverminderd van toepassing zijn op de keten van toeleveranciers, tenzij die eisen niet relevant zijn gezien de aard van de dienstverlening door de toeleverancier. Indien informatiebeveiligingseisen zijn uitgesloten, maakt de leverancier dat inzichtelijk, inclusief een onderbouwing. Gedurende de looptijd geeft de leverancier veranderingen in de keten van toeleveranciers door, inclusief risico's daarin. Dit omvat minimaal kwetsbaarheden en informatiebeveiligingsincidenten die de dienstverlening aan de entiteit kunnen raken. De beveiliging van toeleveringsketens is onderdeel van de risicoanalyse voor de entiteit. In de risicoanalyse wordt rekening gehouden met: � specifieke kwetsbaarheden van elke rechtstreekse leverancier en dienstverlener; � de algemene kwaliteit van de producten; � de cyberbeveiligingspraktijken van hun leveranciers en dienstverleners, met inbegrip van hun veilige ontwikkelingsprocedures. Op basis van het door de leverancier aangeleverde bewijsmateriaal, zie overheidsmaatregel 5.20.03, is de proceseigenaar verantwoordelijk voor: � het jaarlijks beoordelen dat de leverancier voldoet aan de gestelde informatiebeveiligingseisen; � het vaststellen van eventuele beveiligingsrisico's; � het (laten) nemen van mitigerende maatregelen en het accepteren van rest-risico's. De entiteit heeft een actuele registratie van leveranciers en afgesloten contracten. De entiteit stelt beleid op dat toeziet op het inventariseren, classificeren, selecteren, beoordelen en managen van Cloud Service Providers (CSP) en het be�indigen van dienstverlening door CSP's en past dat toe. Dit beleid wordt minimaal eens per drie jaar herzien. In de inkoopcontracten wordt opgenomen welke situaties aanleiding kunnen geven tot ontbinding van het contract. Wanneer zich belangrijke wijzigingen bij de leverancier optreden, beoordeel de risico's daarvan en neem passende maatregelen. Er is voor alle interne en externe medewerkers een toegankelijk meldloket waar informatiebeveiligingsincidenten kunnen worden gemeld en geregistreerd. Overheidsmaatregel- Overheidsmaatregel nummer",
+      "iv_standaard": "Security Incident Management"
+    },
+    {
+      "id": "5.24.02",
+      "titel": "Plannen en voorbereiden van het \nbeheer van informatie-beveiligingsincidenten",
+      "iso_maatregel": "De organisatie moet plannen opstellen voor, en zich \nvoorbereiden op, het beheren van \ninformatiebeveiligingsincidenten door processen, rollen en verantwoordelijkheden voor het beheer van informatie_x0002_beveiligingsincidenten te definiëren, vast te stellen en te communiceren.",
+      "risico": "Incidents escalate due to lack of preparedness.",
+      "overheidsmaatregel": "Er is een meldprocedure waarin de taken en verantwoordelijkheden van het meldloket staan beschreven.",
+      "iv_standaard": "Security Incident Management"
+    },
+    {
+      "id": "5.24.03",
+      "titel": "Plannen en voorbereiden van het \nbeheer van informatie-beveiligingsincidenten",
+      "iso_maatregel": "De organisatie moet plannen opstellen voor, en zich \nvoorbereiden op, het beheren van \ninformatiebeveiligingsincidenten door processen, rollen en verantwoordelijkheden voor het beheer van informatie_x0002_beveiligingsincidenten te definiëren, vast te stellen en te communiceren.",
+      "risico": "Incidents escalate due to lack of preparedness.",
+      "overheidsmaatregel": "De proceseigenaar is verantwoordelijk voor het oplossen van informatiebeveiligingsincidenten.",
+      "iv_standaard": "Security Incident Management"
+    },
+    {
+      "id": "5.24.04",
+      "titel": "Plannen en voorbereiden van het \nbeheer van informatie-beveiligingsincidenten",
+      "iso_maatregel": "De organisatie moet plannen opstellen voor, en zich \nvoorbereiden op, het beheren van \ninformatiebeveiligingsincidenten door processen, rollen en verantwoordelijkheden voor het beheer van informatie_x0002_beveiligingsincidenten te definiëren, vast te stellen en te communiceren.",
+      "risico": "Incidents escalate due to lack of preparedness.",
+      "overheidsmaatregel": "De proceseigenaar rapporteert maandelijks de opvolging van informatiebeveiligingsincidenten aan de eindverantwoordelijke voor de bedrijfsvoering.",
+      "iv_standaard": "Security Incident Management"
+    },
+    {
+      "id": "5.24.05",
+      "titel": "Plannen en voorbereiden van het \nbeheer van informatie-beveiligingsincidenten",
+      "iso_maatregel": "De organisatie moet plannen opstellen voor, en zich \nvoorbereiden op, het beheren van \ninformatiebeveiligingsincidenten door processen, rollen en verantwoordelijkheden voor het beheer van informatie_x0002_beveiligingsincidenten te definiëren, vast te stellen en te communiceren.",
+      "risico": "Incidents escalate due to lack of preparedness.",
+      "overheidsmaatregel": "In de procedure voor informatiebeveiligingsincidenten is er een koppeling gemaakt met crisisbeheersing.",
+      "iv_standaard": "Security Incident Management"
+    },
+    {
+      "id": "5.24.06",
+      "titel": "Plannen en voorbereiden van het \nbeheer van informatie-beveiligingsincidenten",
+      "iso_maatregel": "De organisatie moet plannen opstellen voor, en zich \nvoorbereiden op, het beheren van \ninformatiebeveiligingsincidenten door processen, rollen en verantwoordelijkheden voor het beheer van informatie_x0002_beveiligingsincidenten te definiëren, vast te stellen en te communiceren.",
+      "risico": "Incidents escalate due to lack of preparedness.",
+      "overheidsmaatregel": "De beveiliging van toeleveringsketens is onderdeel van de risicoanalyse voor de organisatie. In de risicoanalyse wordt rekening gehouden met:\n- specifieke kwetsbaarheden van elke rechtstreekse leverancier en dienstverlener;\n- de algemene kwaliteit van de producten;\n- de cyberbeveiligingspraktijken van hun leveranciers en dienstverleners, met inbegrip van hun veilige \n  ontwikkelingsprocedures.",
+      "iv_standaard": "Security Incident Management"
+    },
+    {
+      "id": "5.24.07",
+      "titel": "Plannen en voorbereiden van het \nbeheer van informatie-beveiligingsincidenten",
+      "iso_maatregel": "De organisatie moet plannen opstellen voor, en zich \nvoorbereiden op, het beheren van \ninformatiebeveiligingsincidenten door processen, rollen en verantwoordelijkheden voor het beheer van informatie_x0002_beveiligingsincidenten te definiëren, vast te stellen en te communiceren.",
+      "risico": "Incidents escalate due to lack of preparedness.",
+      "overheidsmaatregel": "De incidentprocedure is er op ingericht om:\n- binnen de wettelijke termijn informatiebeveiligingsincidenten te melden bij het nationale Cyber Security Incident Responce Team (CSIRT);\n- meldingen van het nationale CSIRT te ontvangen, te beoordelen en op te nemen in de risicobehandeling;\n- betrokkenen binnen de wettelijke termijn op de hoogte te stellen van het incident.",
+      "iv_standaard": "Security Incident Management"
+    },
+    {
+      "id": "5.25.01",
+      "titel": "Beoordelen van en besluiten over \ninformatiebeveiligingsgebeurtenissen",
+      "iso_maatregel": "De organisatie moet informatiebeveiligings-gebeurtenissen beoordelen en beslissen of ze moeten worden gecategoriseerd\nals informatiebeveiligingsincidenten.",
+      "risico": "Serious incidents are ignored or mishandled due to poor event assessment.",
+      "overheidsmaatregel": "Informatiebeveiligingsincidenten worden afgedaan via het incidentbeheerproces. Ze worden indien relevant gemeld bij toezichthouders volgens de bepalingen uit de betrokken wet- en regelgeving zoals de Cbw, de Archiefwet en de Algemene verordening gegevensbescherming (AVG).",
+      "iv_standaard": "Security Incident Management"
+    },
+    {
+      "id": "5.26.01",
+      "titel": "Reageren op informatiebeveiligings-incidenten",
+      "iso_maatregel": "Op informatiebeveiligingsincidenten moet worden gereageerd in overeenstemming met de gedocumenteerde procedures.",
+      "risico": "Damage increases due to delayed or ineffective incident response.",
+      "overheidsmaatregel": "Geen overheidsmaatregel, zie deel 1 Kader BIO2, verplichtingen BIO",
+      "iv_standaard": "Security Incident Management"
+    },
+    {
+      "id": "5.27.01",
+      "titel": "Leren van \ninformatiebeveiligingsincidenten",
+      "iso_maatregel": "Kennis die is opgedaan met informatie-beveiligingsincidenten moet worden gebruikt om de beheersmaatregelen voor informatiebeveiliging te versterken en te verbeteren.",
+      "risico": "Repeated incidents occur because lessons learned are not applied.",
+      "overheidsmaatregel": "Informatiebeveiligingsincidenten worden geanalyseerd om achterliggende oorzaken vast te stellen, verbeteringen te realiseren, om zo toekomstige incidenten te voorkomen.",
+      "iv_standaard": "Security Incident Management",
+      "v13_note": "Er is een meldprocedure waarin de taken en verantwoordelijkheden van het meldloket staan beschreven. De proceseigenaar is verantwoordelijk voor het oplossen van informatiebeveiligingsincidenten. De proceseigenaar rapporteert maandelijks de opvolging van informatiebeveiligingsincidenten aan de eindverantwoordelijke voor de bedrijfsvoering. In de procedure voor informatiebeveiligingsincidenten is er een verwijzing gemaakt naar de procedure voor crisisbeheersing. Verplaatst naar 5.21.05. De incidentprocedure bevat tenminste: � dat binnen de wettelijke termijn informatiebeveiligingsincidenten worden gemeld bij het Cyber Security Incident Response Team (CSIRT); � dat meldingen van het CSIRT worden ontvangen, beoordeeld en opgenomen in de risicobehandeling; � dat betrokkenen binnen de wettelijke termijn op de hoogte gesteld worden van het incident. Een Coordinated Vulnerability Disclosure (CVD)-procedure is ingericht en gepubliceerd volgens de NCSC-leidraad of NENEN-ISO/IEC 29147:2020 Vulnerability disclosure. Informatie afkomstig uit de Coordinated Vulnerability Disclosure (CVD)-meldingen is onderdeel van de incidentrapportage. Verplaatst naar 5.26.02. Geen overheidsmaatregel, zie inleiding deel 2 BIOoverheidsmaatregelen. Verplaatst naar 5.25.02. Informatiebeveiligingsincidenten worden afgedaan via het incidentbeheerproces. In het incidentbeheerproces is opgenomen dat incidenten indien relevant gemeld worden bij de in wet- en regelgeving aangewezen toezichthouders. Informatiebeveiligingsincidenten worden geanalyseerd om achterliggende oorzaken vast te stellen, verbeteringen te realiseren, om zo toekomstige incidenten te voorkomen. De analyses van informatiebeveiligingsincidenten, inclusief de achterliggende oorzaken en de verbeteringen worden breed gedeeld met relevante partners om herhaling en toekomstige incidenten te voorkomen. Overheidsmaatregel- Overheidsmaatregel nummer"
+    },
+    {
+      "id": "5.27.02",
+      "titel": "Verzamelen van bewijsmateriaal",
+      "iso_maatregel": "De organisatie moet procedures vaststellen en implementeren voor het identificeren, verzamelen, verkrijgen en bewaren van bewijs met betrekking tot informatiebeveiligingsgebeurtenissen.",
+      "risico": "Repeated incidents occur because lessons learned are not applied.",
+      "overheidsmaatregel": "De analyses van informatiebeveiligingsincidenten, inclusief de achterliggende oorzaken en de verbeteringen worden breed gedeeld met relevante partners om herhaling en toekomstige incidenten te voorkomen.",
+      "iv_standaard": "Security Incident Management",
+      "v13_note": "Er is een meldprocedure waarin de taken en verantwoordelijkheden van het meldloket staan beschreven. De proceseigenaar is verantwoordelijk voor het oplossen van informatiebeveiligingsincidenten. De proceseigenaar rapporteert maandelijks de opvolging van informatiebeveiligingsincidenten aan de eindverantwoordelijke voor de bedrijfsvoering. In de procedure voor informatiebeveiligingsincidenten is er een verwijzing gemaakt naar de procedure voor crisisbeheersing. Verplaatst naar 5.21.05. De incidentprocedure bevat tenminste: � dat binnen de wettelijke termijn informatiebeveiligingsincidenten worden gemeld bij het Cyber Security Incident Response Team (CSIRT); � dat meldingen van het CSIRT worden ontvangen, beoordeeld en opgenomen in de risicobehandeling; � dat betrokkenen binnen de wettelijke termijn op de hoogte gesteld worden van het incident. Een Coordinated Vulnerability Disclosure (CVD)-procedure is ingericht en gepubliceerd volgens de NCSC-leidraad of NENEN-ISO/IEC 29147:2020 Vulnerability disclosure. Informatie afkomstig uit de Coordinated Vulnerability Disclosure (CVD)-meldingen is onderdeel van de incidentrapportage. Verplaatst naar 5.26.02. Geen overheidsmaatregel, zie inleiding deel 2 BIOoverheidsmaatregelen. Verplaatst naar 5.25.02. Informatiebeveiligingsincidenten worden afgedaan via het incidentbeheerproces. In het incidentbeheerproces is opgenomen dat incidenten indien relevant gemeld worden bij de in wet- en regelgeving aangewezen toezichthouders. Informatiebeveiligingsincidenten worden geanalyseerd om achterliggende oorzaken vast te stellen, verbeteringen te realiseren, om zo toekomstige incidenten te voorkomen. De analyses van informatiebeveiligingsincidenten, inclusief de achterliggende oorzaken en de verbeteringen worden breed gedeeld met relevante partners om herhaling en toekomstige incidenten te voorkomen. Overheidsmaatregel- Overheidsmaatregel nummer"
+    },
+    {
+      "id": "5.28.01",
+      "titel": "Verzamelen van bewijsmateriaal",
+      "iso_maatregel": "De organisatie moet procedures vaststellen en implementeren voor het identificeren, verzamelen, verkrijgen en bewaren van bewijs met betrekking tot informatiebeveiligingsgebeurtenissen.",
+      "risico": "Legal or disciplinary actions fail due to improper evidence handling.",
+      "overheidsmaatregel": "De bewaartermijn van een (vermoedelijk) informatiebeveiligingsincident en alle informatie om het incident te analyseren en op te lossen, is minimaal drie jaar. Dit betreft onder meer de informatie benodigd voor de analyse (waaronder logging), de oplossing en het advies.",
+      "iv_standaard": "Security Incident Management"
+    },
+    {
+      "id": "5.29.01",
+      "titel": "Informatiebeveiliging tijdens een \nverstoring",
+      "iso_maatregel": "De organisatie moet plannen maken voor het op het passende niveau waarborgen van de informatiebeveiliging tijdens een \nverstoring.",
+      "risico": "Critical information is lost or exposed during disruptions.",
+      "overheidsmaatregel": "Geen overheidsmaatregel, zie deel 1 Kader BIO2, verplichtingen BIO",
+      "iv_standaard": "Business Continuity & Disaster Recovery"
+    },
+    {
+      "id": "5.30.01",
+      "titel": "ICT-gereedheid voor \nbedrijfscontinuïteit",
+      "iso_maatregel": "De ICT-gereedheid moet worden gepland, geïmplementeerd, onderhouden en getest op basis van bedrijfscontinuïteitsdoel_x0002_stellingen en ICT-continuïteitseisen.",
+      "risico": "ICT services fail to support critical operations during disruptions.",
+      "overheidsmaatregel": "De proceseigenaar test jaarlijks continuïteitsplannen op werking, volledigheid en actualiteit, om de plannen te verbeteren.",
+      "iv_standaard": "Business Continuity & Disaster Recovery"
+    },
+    {
+      "id": "5.30.02",
+      "titel": "ICT-gereedheid voor \nbedrijfscontinuïteit",
+      "iso_maatregel": "De ICT-gereedheid moet worden gepland, geïmplementeerd, onderhouden en getest op basis van bedrijfscontinuïteitsdoel_x0002_stellingen en ICT-continuïteitseisen.",
+      "risico": "ICT services fail to support critical operations during disruptions.",
+      "overheidsmaatregel": "Binnen de inventarisatie van beheersmaatregel 5.12, identificeert de proceseigenaar kritieke systemen op basis van de vastgestelde risicomanagementmethodiek en een expliciete risicoafweging. \nDe proceseigenaar actualiseert dit overzicht ten minste eens per drie jaar.",
+      "iv_standaard": "Business Continuity & Disaster Recovery"
+    },
+    {
+      "id": "5.31.01",
+      "titel": "Wettelijke, statutaire, regelgevende \nen contractuele eisen",
+      "iso_maatregel": "Wettelijke, statutaire, regelgevende en contractuele eisen die relevant zijn voor informatiebeveiliging en de aanpak van de organisatie om aan deze eisen te voldoen, moeten worden geïdentificeerd, gedocumenteerd en actueel gehouden.",
+      "risico": "Penalties or legal action result from non-compliance.",
+      "overheidsmaatregel": "Geen overheidsmaatregel, zie deel 1 Kader BIO2, verplichtingen BIO",
+      "iv_standaard": "IT-Compliance"
+    },
+    {
+      "id": "5.32.01",
+      "titel": "Intellectuele-eigendomsrechten",
+      "iso_maatregel": "De organisatie moet passende procedures implementeren om intellectuele-eigendomsrechten te beschermen.",
+      "risico": "Legal disputes or losses occur due to IP violations.",
+      "overheidsmaatregel": "Geen overheidsmaatregel, zie deel 1 Kader BIO2, verplichtingen BIO",
+      "iv_standaard": "IT-Compliance"
+    },
+    {
+      "id": "5.33.01",
+      "titel": "Beschermen van registraties",
+      "iso_maatregel": "Registraties moeten worden beschermd tegen verlies, vernietiging, vervalsing, toegang door onbevoegden en ongeoorloofde vrijgave.",
+      "risico": "Records are lost, altered, or inaccessible when needed.",
+      "overheidsmaatregel": "De proceseigenaar heeft voor alle informatie(systemen) in selectielijsten de bewaartermijn vastgelegd, rekening houdend met de eigen bedrijfsdoelstellingen en wet- en regeling, zoals de archiefwet en privacywetgeving. De proceseigenaar heeft deze termijnen ook praktisch ingeregeld en toetst periodiek de werking hiervan.",
+      "iv_standaard": "IT-Compliance"
+    },
+    {
+      "id": "5.34.01",
+      "titel": "Privacy en bescherming van \npersoonsgegevens",
+      "iso_maatregel": "De organisatie moet de eisen met betrekking tot het behoud van privacy en de bescherming van persoonsgegevens volgens de toepasselijke wet- en regelgeving en contractuele eisen identificeren en eraan voldoen.",
+      "risico": "Privacy breaches result in regulatory penalties and reputational damage.",
+      "overheidsmaatregel": "Geen overheidsmaatregel, zie deel 1 Kader BIO2, verplichtingen BIO",
+      "iv_standaard": "IT-Compliance"
+    },
+    {
+      "id": "5.35.02",
+      "titel": "Onafhankelijke beoordeling van \ninformatiebeveiliging",
+      "iso_maatregel": "De aanpak van de organisatie ten aanzien van het beheer van informatiebeveiliging en de implementatie ervan, met inbegrip van mensen, processen en technologieën, moeten onafhankelijk \nen met geplande tussenpozen of zodra zich belangrijke veranderingen voordoen, worden beoordeeld.",
+      "risico": "Control weaknesses remain undetected without independent review.",
+      "overheidsmaatregel": "Er is een vastgesteld auditplan waarin jaarlijks keuzes worden gemaakt voor welke systemen welk soort beveiligingsaudits worden uitgevoerd.",
+      "iv_standaard": "IV-beleid"
+    },
+    {
+      "id": "5.36.01",
+      "titel": "Naleving van beleid, regels en \nnormen voor informatiebeveiliging",
+      "iso_maatregel": "De naleving van het informatiebeveiligingsbeleid, \nhet onderwerpspecifieke beleid, regels en de normen van de organisatie moet regelmatig worden beoordeeld.",
+      "risico": "Security posture degrades due to policy non-compliance.",
+      "overheidsmaatregel": "In de P&C-cyclus en als onderdeel van de plan-do-check-act (PDCA)-cyclus wordt gerapporteerd over informatiebeveiliging onder coördinatie van de CISO. Dit resulteert in een jaarlijks af te geven In Control Verklaring (ICV), of een vergelijkbaar instrument, over de gehele informatiebeveiliging van de overheidsorganisatie. De ICV of het vergelijkbare instrument kan ook onderdeel zijn van de formele verantwoording.",
+      "iv_standaard": "IV-beleid"
+    },
+    {
+      "id": "6.02.01",
+      "titel": "Arbeidsovereenkomst",
+      "iso_maatregel": "In arbeidsovereenkomsten moet worden vermeld wat de verantwoordelijkheden van het personeel en van de organisatie zijn wat betreft informatiebeveiliging.",
+      "risico": "Employees misuse information due to unclear security obligations.",
+      "overheidsmaatregel": "Alle medewerkers (intern en extern) zijn bij hun aanstelling of functiewisseling gewezen op hun verantwoordelijkheden voor informatiebeveiliging.\nDe voor hen geldende regelingen en instructies voor informatiebeveiliging zijn eenvoudig toegankelijk.",
+      "iv_standaard": "Screening, bewustzijn & opleiding"
+    },
+    {
+      "id": "6.03.01",
+      "titel": "Bewustwording van, opleiding en \ntraining in informatiebeveiliging",
+      "iso_maatregel": "Personeel van de organisatie en relevante belanghebbenden moeten een passende bewustwording van, opleiding en training\nin informatiebeveiliging en regelmatige updates over het informatiebeveiligingsbeleid, onderwerp-specifieke beleidsregels en procedures van de organisatie, voor zover relevant voor hun functie, krijgen.",
+      "risico": "Human error leads to incidents due to lack of awareness.",
+      "overheidsmaatregel": "Alle medewerkers, lijnmanagers en bestuurders hebben de verantwoordelijkheid bedrijfsinformatie te beschermen. Iedereen kent de regels van en verplichtingen voor informatiebeveiliging en daar waar relevant de speciale eisen voor gerubriceerde omgevingen.",
+      "iv_standaard": "Screening, bewustzijn & opleiding"
+    },
+    {
+      "id": "6.03.02",
+      "titel": "Bewustwording van, opleiding en \ntraining in informatiebeveiliging",
+      "iso_maatregel": "Personeel van de organisatie en relevante belanghebbenden moeten een passende bewustwording van, opleiding en training\nin informatiebeveiliging en regelmatige updates over het informatiebeveiligingsbeleid, onderwerp-specifieke beleidsregels en procedures van de organisatie, voor zover relevant voor hun functie, krijgen.",
+      "risico": "Human error leads to incidents due to lack of awareness.",
+      "overheidsmaatregel": "Alle medewerkers en contractanten die gebruikmaken van de informatiesystemen en -diensten hebben binnen drie maanden na indiensttreding aantoonbaar een training I-bewustzijn succesvol gevolgd.",
+      "iv_standaard": "Screening, bewustzijn & opleiding"
+    },
+    {
+      "id": "6.03.03",
+      "titel": "Bewustwording van, opleiding en \ntraining in informatiebeveiliging",
+      "iso_maatregel": "Personeel van de organisatie en relevante belanghebbenden moeten een passende bewustwording van, opleiding en training\nin informatiebeveiliging en regelmatige updates over het informatiebeveiligingsbeleid, onderwerp-specifieke beleidsregels en procedures van de organisatie, voor zover relevant voor hun functie, krijgen.",
+      "risico": "Human error leads to incidents due to lack of awareness.",
+      "overheidsmaatregel": "Het management benadrukt bij aanstelling en interne overplaatsing en bijvoorbeeld in werkoverleggen of in personeelsgesprekken bij zijn medewerkers en contractanten het belang van opleiding en training op het gebied van informatiebeveiliging. Het management stimuleert hen actief deze periodiek te volgen.",
+      "iv_standaard": "Screening, bewustzijn & opleiding"
+    },
+    {
+      "id": "6.04.01",
+      "titel": "Disciplinaire procedure",
+      "iso_maatregel": "Er moet een formele en gecommuniceerde disciplinaire procedure zijn om actie te ondernemen tegen personeel en andere belanghebbenden die zich schuldig hebben gemaakt aan een schending van het informatiebeveiligingsbeleid.",
+      "risico": "Security violations continue due to lack of consequences.",
+      "overheidsmaatregel": "Geen overheidsmaatregel, zie deel 1 Kader BIO2, verplichtingen BIO",
+      "iv_standaard": "Screening, bewustzijn & opleiding"
+    },
+    {
+      "id": "6.05.01",
+      "titel": "Verantwoordelijkheden na \nbeëindiging of wijziging van het \ndienstverband",
+      "iso_maatregel": "Verantwoordelijkheden en taken met betrekking tot \ninformatiebeveiliging die van kracht blijven na beëindiging of wijziging van het dienstverband, moeten worden gedefinieerd, gehandhaafd en gecommuniceerd aan relevant personeel en \nandere belanghebbenden.",
+      "risico": "Former staff retain access or misuse information.",
+      "overheidsmaatregel": "Geen overheidsmaatregel, zie deel 1 Kader BIO2, verplichtingen BIO",
+      "iv_standaard": "Screening, bewustzijn & opleiding"
+    },
+    {
+      "id": "6.06.01",
+      "titel": "Vertrouwelijkheids- of \ngeheimhoudingsovereenkomsten",
+      "iso_maatregel": "Vertrouwelijkheids- of geheimhoudings-overeenkomsten die de behoeften van de organisatie inzake de bescherming van \ninformatie weerspiegelen, moeten worden geïdentificeerd, gedocumenteerd, regelmatig worden beoordeeld en ondertekend door personeel en andere relevante belanghebbenden.",
+      "risico": "Sensitive information is disclosed without legal protection.",
+      "overheidsmaatregel": "Geen overheidsmaatregel, zie deel 1 Kader BIO2, verplichtingen BIO",
+      "iv_standaard": "Screening, bewustzijn & opleiding"
+    },
+    {
+      "id": "6.07.01",
+      "titel": "Werken op afstand",
+      "iso_maatregel": "Wanneer personeel op afstand werkt, moeten er\nbeveiligingsmaatregelen worden geïmplementeerd om informatie te beschermen die buiten het gebouw en/of terrein van de organisatie wordt ingezien, verwerkt of opgeslagen.",
+      "risico": "Information is exposed due to insecure remote work practices.",
+      "overheidsmaatregel": "Geen overheidsmaatregel, zie deel 1 Kader BIO2, verplichtingen BIO",
+      "iv_standaard": "Logische toegangsbeveiliging"
+    },
+    {
+      "id": "6.08.01",
+      "titel": "Melden van informatiebeveiligings-gebeurtenissen",
+      "iso_maatregel": "De organisatie moet voorzien in een mechanisme waarmee personeel waargenomen of vermoede informatiebeveiligings_x0002_gebeurtenissen tijdig via passende kanalen kan melden",
+      "risico": "Incidents worsen because employees do not report events.",
+      "overheidsmaatregel": "Alle medewerkers (intern en extern) hebben aantoonbaar kennisgenomen van de meldingsprocedure van informatiebeveiligingsincidenten.",
+      "iv_standaard": "Security Incident Management"
+    },
+    {
+      "id": "7.01.01",
+      "titel": "Fysieke beveiligingszones",
+      "iso_maatregel": "Zones die informatie en andere gerelateerde bedrijfsmiddelen bevatten, moeten worden beschermd door beveiligingszones te \ndefiniëren en te gebruiken",
+      "risico": "Unauthorized physical access compromises information assets.",
+      "overheidsmaatregel": "Er wordt voor het inrichten van beveiligde zones gebruik gemaakt van standaarden.",
+      "iv_standaard": "Fysieke toegang & beveiliging"
+    },
+    {
+      "id": "7.01.02",
+      "titel": "Fysieke beveiligingszones",
+      "iso_maatregel": "Zones die informatie en andere gerelateerde bedrijfsmiddelen bevatten, moeten worden beschermd door beveiligingszones te \ndefiniëren en te gebruiken",
+      "risico": "Unauthorized physical access compromises information assets.",
+      "overheidsmaatregel": "Kritieke informatie of informatiesystemen zijn nooit via één beveiligde zone te bereiken.",
+      "iv_standaard": "Fysieke toegang & beveiliging"
+    },
+    {
+      "id": "7.02.01",
+      "titel": "Fysieke toegangsbeveiliging",
+      "iso_maatregel": "Beveiligde zones moeten worden beschermd door passende toegangsbeveiligingsmaatregelen en toegangspunten.",
+      "risico": "Intruders gain access to secure areas.",
+      "overheidsmaatregel": "In geval van concrete beveiligingsrisico’s worden waarschuwingen, volgens onderlinge afspraken, verzonden aan de relevante collega’s binnen het beveiligingsdomein van de overheid.",
+      "iv_standaard": "Fysieke toegang & beveiliging"
+    },
+    {
+      "id": "7.05.01",
+      "titel": "Beschermen tegen fysieke en \nomgevingsdreigingen",
+      "iso_maatregel": "Er moet bescherming tegen fysieke en omgevingsdreigingen, zoals natuurrampen en andere opzettelijke of onopzettelijke fysieke dreigingen voor de infrastructuur, worden ontworpen en geïmplementeerd.",
+      "risico": "Information assets are damaged by environmental hazards.",
+      "overheidsmaatregel": "Geen overheidsmaatregel, zie deel 1 Kader BIO2, verplichtingen BIO",
+      "iv_standaard": "Fysieke toegang & beveiliging"
+    },
+    {
+      "id": "7.06.01",
+      "titel": "Werken in beveiligde zones",
+      "iso_maatregel": "Voor het werken in beveiligde zones moeten \nbeveiligingsmaatregelen worden ontwikkeld en \ngeïmplementeerd.",
+      "risico": "Sensitive information is exposed through unsafe practices.",
+      "overheidsmaatregel": "Geen overheidsmaatregel, zie deel 1 Kader BIO2, verplichtingen BIO",
+      "iv_standaard": "Bedrijfsmiddelenbeheer"
+    },
+    {
+      "id": "7.07.01",
+      "titel": "‘Clear desk’ en ‘clear screen’",
+      "iso_maatregel": "Er moeten ‘clear desk’-regels voor papieren documenten en verwijderbare opslagmedia en ‘clear screen’-regels voor informatieverwerkende faciliteiten worden gedefinieerd en op \npassende wijze worden afgedwongen",
+      "risico": "Information is viewed or stolen by unauthorized persons.",
+      "overheidsmaatregel": "Bij het gebruik van een chipcardtoken voor toegang tot systemen wordt bij het verwijderen van het token de toegangsbeveiligingsvergrendeling automatisch geactiveerd.",
+      "iv_standaard": "IT-Compliance"
+    },
+    {
+      "id": "7.08.01",
+      "titel": "Plaatsen en beschermen van \napparatuur",
+      "iso_maatregel": "Apparatuur moet veilig worden geplaatst en beschermd.",
+      "risico": "Equipment damage or theft disrupts operations.",
+      "overheidsmaatregel": "Geen overheidsmaatregel, zie deel 1 Kader BIO2, verplichtingen BIO",
+      "iv_standaard": "Bedrijfsmiddelenbeheer"
+    },
+    {
+      "id": "7.09.01",
+      "titel": "Beveiligen van bedrijfsmiddelen \nbuiten het terrein",
+      "iso_maatregel": "Bedrijfsmiddelen buiten het gebouw en/of terrein moeten worden beschermd.",
+      "risico": "Off-site assets are lost or compromised.",
+      "overheidsmaatregel": "Geen overheidsmaatregel, zie deel 1 Kader BIO2, verplichtingen BIO",
+      "iv_standaard": "Bedrijfsmiddelenbeheer"
+    },
+    {
+      "id": "7.10.01",
+      "titel": "Opslagmedia",
+      "iso_maatregel": "Opslagmedia moeten worden beheerd gedurende hun volledige levenscyclus van aanschaf, gebruik, transport en verwijdering overeenkomstig het classificatieschema en de hanteringseisen \nvan de organisatie",
+      "risico": "Data leakage occurs through improper media handling.",
+      "overheidsmaatregel": "Er is een verwijderinstructie waarin is opgenomen dat van verwijderbare media die herbruikbaar zijn en die de organisatie verlaten, de bedrijfsgevoelige inhoud onherstelbaar verwijderd is.",
+      "iv_standaard": "Afvoer en hergebruik gegevensdragers"
+    },
+    {
+      "id": "7.10.02",
+      "titel": "Opslagmedia",
+      "iso_maatregel": "Opslagmedia moeten worden beheerd gedurende hun volledige levenscyclus van aanschaf, gebruik, transport en verwijdering overeenkomstig het classificatieschema en de hanteringseisen \nvan de organisatie",
+      "risico": "Data leakage occurs through improper media handling.",
+      "overheidsmaatregel": "Voor het wissen van alle data op het medium, wordt data onherstelbaar verwijderd of onbeschikbaar gemaakt.\nEr wordt gecontroleerd of alle data onherstelbaar verwijderd is. Hiervan wordt verslag gemaakt. Er wordt bij voorkeur gebruik gemaakt van producten waarvoor de Unit Weerbaarheid van het Nationaal Bureau voor Verbindingsbeveiliging (NBV) een positief inzetadvies afgegeven heeft.",
+      "iv_standaard": "Afvoer en hergebruik gegevensdragers"
+    },
+    {
+      "id": "7.10.03",
+      "titel": "Opslagmedia",
+      "iso_maatregel": "Opslagmedia moeten worden beheerd gedurende hun volledige levenscyclus van aanschaf, gebruik, transport en verwijdering overeenkomstig het classificatieschema en de hanteringseisen \nvan de organisatie",
+      "risico": "Data leakage occurs through improper media handling.",
+      "overheidsmaatregel": "Het gebruik van koeriers of transporteurs voor transport van geclassificeerde informatie voldoet aan vooraf opgestelde betrouwbaarheidseisen.",
+      "iv_standaard": "Afvoer en hergebruik gegevensdragers"
+    },
+    {
+      "id": "7.11.01",
+      "titel": "Nutsvoorzieningen",
+      "iso_maatregel": "Informatieverwerkende faciliteiten moeten worden beschermd tegen stroomuitval en andere verstoringen die worden veroorzaakt door storingen in nutsvoorzieningen.",
+      "risico": "Service outages disrupt information processing.",
+      "overheidsmaatregel": "Geen overheidsmaatregel, zie deel 1 Kader BIO2, verplichtingen BIO",
+      "iv_standaard": "Bedrijfsmiddelenbeheer"
+    },
+    {
+      "id": "7.12.01",
+      "titel": "Beveiligen van bekabeling",
+      "iso_maatregel": "Voedingskabels en kabels voor het versturen van gegevens of die informatiediensten ondersteunen, moeten worden beschermd tegen onderschepping, interferentie of beschadiging",
+      "risico": "Data interception or disruption occurs via insecure cabling.",
+      "overheidsmaatregel": "Geen overheidsmaatregel, zie deel 1 Kader BIO2, verplichtingen BIO",
+      "iv_standaard": "Fysieke toegang & beveiliging"
+    },
+    {
+      "id": "7.13.01",
+      "titel": "Onderhoud van apparatuur",
+      "iso_maatregel": "Apparatuur moet op de juiste wijze worden onderhouden om de beschikbaarheid, integriteit en vertrouwelijkheid van informatie te garanderen",
+      "risico": "System failures occur due to poor maintenance.",
+      "overheidsmaatregel": "Geen overheidsmaatregel, zie deel 1 Kader BIO2, verplichtingen BIO",
+      "iv_standaard": "Bedrijfsmiddelenbeheer"
+    },
+    {
+      "id": "7.14.01",
+      "titel": "Veilig verwijderen of hergebruiken \nvan apparatuur",
+      "iso_maatregel": "Onderdelen van de apparatuur die opslagmedia bevatten, moeten worden gecontroleerd om te waarborgen dat gevoelige gegevens en gelicentieerde software zijn verwijderd of veilig \nzijn overschreven voordat ze worden verwijderd of hergebruikt.",
+      "risico": "Residual data is exposed after disposal or reuse.",
+      "overheidsmaatregel": "Geen overheidsmaatregel, zie deel 1 Kader BIO2, verplichtingen BIO",
+      "iv_standaard": "Afvoer en hergebruik gegevensdragers"
+    },
+    {
+      "id": "8.01.01",
+      "titel": "User endpoint devices'",
+      "iso_maatregel": "Informatie die is opgeslagen op, wordt verwerkt door of toegankelijk is via 'user endpoint devices' moet worden beschermd.",
+      "risico": "Endpoints are compromised due to insufficient protection.",
+      "overheidsmaatregel": "Mobiele apparatuur is zo ingericht dat bedrijfsinformatie niet standaard op het gebruikersdevice wordt opgeslagen (‘zero footprint’). Als (near) zero footprint (nog) niet realiseerbaar is, biedt een mobiel apparaat (zoals een laptop, tablet en smartphone) de mogelijkheid om de toegang te beschermen met een toegangsbeveiligingsmechanisme met minimaal versleuteling van de gegevens.\nOp mobiele apparatuur moet ‘wissen op afstand’ mogelijk zijn.",
+      "iv_standaard": "Mobile Device Management"
+    },
+    {
+      "id": "8.01.02",
+      "titel": "User endpoint devices'",
+      "iso_maatregel": "Informatie die is opgeslagen op, wordt verwerkt door of toegankelijk is via 'user endpoint devices' moet worden beschermd.",
+      "risico": "Endpoints are compromised due to insufficient protection.",
+      "overheidsmaatregel": "Bij de inzet van mobiele apparatuur zijn minimaal de volgende aspecten geïmplementeerd:\n- In bewustwordingsprogramma’s komen gedragsaspecten van veilig mobiel werken aan de orde.\n- Het apparaat maakt deel uit van patchmanagement en hardening.\n- Er wordt gebruik gemaakt van Mobile Device Management (MDM)- of Mobile Application Management (MAM)-\n   oplossingen.\n- Gebruikers tekenen een gebruikersovereenkomst voor mobiel werken, waarmee zij verklaren zich bewust te \n   zijn van de gevaren van mobiel werken en verklaren dit veilig te zullen doen. Deze verklaring heeft \n   betrekking op alle mobiele apparatuur die de medewerker zakelijk gebruikt. Periodiek wordt getoetst of de \n   punten in lid 1., 2. en 3. worden nageleefd.",
+      "iv_standaard": "Mobile Device Management"
+    },
+    {
+      "id": "8.02.01",
+      "titel": "Speciale toegangsrechten",
+      "iso_maatregel": "Het toewijzen en het gebruik van speciale toegangsrechten moet worden beperkt en beheerd",
+      "risico": "misuse of privileged accounts causes major security breaches.",
+      "overheidsmaatregel": "De toegewezen of gebruikte speciale bevoegdheden worden in opzet, bestaan en werking minimaal ieder kwartaal beoordeeld.",
+      "iv_standaard": "Logische toegangsbeveiliging"
+    },
+    {
+      "id": "8.03.01",
+      "titel": "Beperking toegang tot informatie",
+      "iso_maatregel": "De toegang tot informatie en andere gerelateerde \nbedrijfsmiddelen moet worden beperkt overeenkomstig het vastgestelde onderwerpspecifieke beleid inzake \ntoegangsbeveiliging",
+      "risico": "users access information beyond their authorization.",
+      "overheidsmaatregel": "Er zijn maatregelen genomen die het fysiek en/of logisch isoleren van informatie met specifiek belang waarborgen.",
+      "iv_standaard": "Logische toegangsbeveiliging"
+    },
+    {
+      "id": "8.03.02",
+      "titel": "Beperking toegang tot informatie",
+      "iso_maatregel": "De toegang tot informatie en andere gerelateerde \nbedrijfsmiddelen moet worden beperkt overeenkomstig het vastgestelde onderwerpspecifieke beleid inzake \ntoegangsbeveiliging",
+      "risico": "users access information beyond their authorization.",
+      "overheidsmaatregel": "Gebruikers kunnen alleen die informatie met specifiek belang inzien en verwerken die ze nodig hebben voor de uitoefening van hun taak.",
+      "iv_standaard": "Logische toegangsbeveiliging"
+    },
+    {
+      "id": "8.04.01",
+      "titel": "Toegangsbeveiliging op broncode",
+      "iso_maatregel": "Lees- en schrijftoegang tot broncode, ontwikkelinstrumenten en softwarebibliotheken moet op passende wijze worden beheerd.",
+      "risico": "unauthorized changes introduce vulnerabilities or malware.",
+      "overheidsmaatregel": "Geen overheidsmaatregel, zie deel 1 Kader BIO2, verplichtingen BIO",
+      "iv_standaard": "Logische toegangsbeveiliging"
+    },
+    {
+      "id": "8.05.01",
+      "titel": "Beveiligde authenticatie",
+      "iso_maatregel": "Er moeten beveiligde authenticatietechnologieën \nen -procedures worden geïmplementeerd op basis van beperkingen van de toegang tot informatie en het onderwerpspecifieke beleid inzake toegangsbeveiliging.",
+      "risico": "weak authentication enables account compromise.",
+      "overheidsmaatregel": "Voor het verlenen van toegang tot het netwerk aan externe leveranciers wordt vooraf een risicoafweging gemaakt. De risicoafweging bepaalt onder welke voorwaarden en voor hoelang de leveranciers toegang krijgen. Uit een registratie blijkt hoe de rechten zijn toegekend.",
+      "iv_standaard": "Logische toegangsbeveiliging"
+    },
+    {
+      "id": "8.06.01",
+      "titel": "Capaciteitsbeheer",
+      "iso_maatregel": "Het gebruik van middelen moet worden gemonitord en aangepast overeenkomstig de huidige en verwachte capaciteitseisen.",
+      "risico": "insufficient capacity causes system outages.",
+      "overheidsmaatregel": "Geen overheidsmaatregel, zie deel 1 Kader BIO2, verplichtingen BIO",
+      "iv_standaard": "IT-Compliance"
+    },
+    {
+      "id": "8.07.01",
+      "titel": "Bescherming tegen malware",
+      "iso_maatregel": "Bescherming tegen malware moet worden geïmplementeerd en ondersteund door een passend gebuikersbewustzijn",
+      "risico": "malware disrupts operations or leaks data.",
+      "overheidsmaatregel": "Het downloaden van bestanden is beheerst en beperkt op basis van het risico en need-of-use.\nDe antimalware-software moet altijd alle downloads beoordelen.",
+      "iv_standaard": "Vulnerability & patchmanagement"
+    },
+    {
+      "id": "8.07.02",
+      "titel": "Bescherming tegen malware",
+      "iso_maatregel": "Bescherming tegen malware moet worden geïmplementeerd en ondersteund door een passend gebuikersbewustzijn",
+      "risico": "malware disrupts operations or leaks data.",
+      "overheidsmaatregel": "Gebruikers zijn voorgelicht over de risico’s van surfgedrag en het klikken op onbekende links.",
+      "iv_standaard": "Vulnerability & patchmanagement"
+    },
+    {
+      "id": "8.07.03",
+      "titel": "Bescherming tegen malware",
+      "iso_maatregel": "Bescherming tegen malware moet worden geïmplementeerd en ondersteund door een passend gebuikersbewustzijn",
+      "risico": "malware disrupts operations or leaks data.",
+      "overheidsmaatregel": "De gebruikte antimalware-software en bijbehorende herstelsoftware zijn actueel en wordt ondersteund door periodieke updates.",
+      "iv_standaard": "Vulnerability & patchmanagement"
+    },
+    {
+      "id": "8.07.04",
+      "titel": "Bescherming tegen malware",
+      "iso_maatregel": "Bescherming tegen malware moet worden geïmplementeerd en ondersteund door een passend gebuikersbewustzijn",
+      "risico": "malware disrupts operations or leaks data.",
+      "overheidsmaatregel": "De malwarescan wordt uitgevoerd op:\n- alle omgevingen, bijvoorbeeld op (mail)servers, (desktop)computers en bij de toegangsverlening tot het \n   netwerk van de organisatie;\n- alle gedownloade content voorafgaand aan executie of opslag;\n- alle bestanden die via netwerken of via elke vorm van opslagmedium zijn ontvangen, vóór gebruik of opslag \n  in de eigen omgeving.",
+      "iv_standaard": "Vulnerability & patchmanagement"
+    },
+    {
+      "id": "8.08.01",
+      "titel": "Beheer van technische \nkwetsbaarheden",
+      "iso_maatregel": "Er moet informatie worden verkregen over technische kwetsbaarheden van in gebruik zijnde informatiesystemen, de blootstelling van de organisatie aan dergelijke kwetsbaarheden \nmoet worden geëvalueerd en er moeten passende maatregelen worden getroffen.",
+      "risico": "unpatched vulnerabilities are exploited by attackers.",
+      "overheidsmaatregel": "Als de kans op misbruik en de verwachte schade beide hoog zijn (bijvoorbeeld met de NCSC-Inschalingsmatrix beveiligingsadviezen of leveranciersbeveiligingsadviezen), worden passende mitigerende maatregelen zo snel mogelijk, maar uiterlijk binnen een week getroffen.",
+      "iv_standaard": "Vulnerability & patchmanagement"
+    },
+    {
+      "id": "8.08.02",
+      "titel": "Beheer van technische \nkwetsbaarheden",
+      "iso_maatregel": "Er moet informatie worden verkregen over technische kwetsbaarheden van in gebruik zijnde informatiesystemen, de blootstelling van de organisatie aan dergelijke kwetsbaarheden \nmoet worden geëvalueerd en er moeten passende maatregelen worden getroffen.",
+      "risico": "unpatched vulnerabilities are exploited by attackers.",
+      "overheidsmaatregel": "Op basis van een expliciete risicoafweging wordt bepaald op welke wijze mitigerende maatregelen getroffen worden.",
+      "iv_standaard": "Vulnerability & patchmanagement"
+    },
+    {
+      "id": "8.08.03",
+      "titel": "Beheer van technische \nkwetsbaarheden",
+      "iso_maatregel": "Er moet informatie worden verkregen over technische kwetsbaarheden van in gebruik zijnde informatiesystemen, de blootstelling van de organisatie aan dergelijke kwetsbaarheden \nmoet worden geëvalueerd en er moeten passende maatregelen worden getroffen.",
+      "risico": "unpatched vulnerabilities are exploited by attackers.",
+      "overheidsmaatregel": "In de tussentijd of als installatie binnen een week niet mogelijk is, worden op basis van een expliciete risicoafweging mitigerende maatregelen getroffen.",
+      "iv_standaard": "Vulnerability & patchmanagement"
+    },
+    {
+      "id": "8.08.04",
+      "titel": "Beheer van technische \nkwetsbaarheden",
+      "iso_maatregel": "Er moet informatie worden verkregen over technische kwetsbaarheden van in gebruik zijnde informatiesystemen, de blootstelling van de organisatie aan dergelijke kwetsbaarheden \nmoet worden geëvalueerd en er moeten passende maatregelen worden getroffen.",
+      "risico": "unpatched vulnerabilities are exploited by attackers.",
+      "overheidsmaatregel": "Informatiesystemen worden bij voorkeur jaarlijks gecontroleerd op technische naleving van beveiligingsnormen en risico’s van de feitelijke veiligheid. Dit kan bijvoorbeeld door (geautomatiseerde) kwetsbaarheidsanalyses, penetratietesten of red-teamingstesten. Internetfacing-informatiesystemen worden bij voorkeur continue getest op zwakheden en kwetsbaarheden.",
+      "iv_standaard": "Vulnerability & patchmanagement"
+    },
+    {
+      "id": "8.08.05",
+      "titel": "Beheer van technische \nkwetsbaarheden",
+      "iso_maatregel": "Er moet informatie worden verkregen over technische kwetsbaarheden van in gebruik zijnde informatiesystemen, de blootstelling van de organisatie aan dergelijke kwetsbaarheden \nmoet worden geëvalueerd en er moeten passende maatregelen worden getroffen.",
+      "risico": "unpatched vulnerabilities are exploited by attackers.",
+      "overheidsmaatregel": "Internetfacing-informatiesystemen hebben een verplichte (bij voorkeur geautomatiseerde) penetratietest bij iedere nieuwe release of major update. Als daar bevindingen met een hoog risico uitkomen die niet op een andere manier gemitigeerd kunnen worden, mag het systeem niet in productie. Alle internetfacing-informatiesystemen worden minimaal jaarlijks getest op zwakheden en kwetsbaarheden.",
+      "iv_standaard": "Vulnerability & patchmanagement"
+    },
+    {
+      "id": "8.08.06",
+      "titel": "Beheer van technische \nkwetsbaarheden",
+      "iso_maatregel": "Er moet informatie worden verkregen over technische kwetsbaarheden van in gebruik zijnde informatiesystemen, de blootstelling van de organisatie aan dergelijke kwetsbaarheden \nmoet worden geëvalueerd en er moeten passende maatregelen worden getroffen.",
+      "risico": "unpatched vulnerabilities are exploited by attackers.",
+      "overheidsmaatregel": "Een Coordinated Vulnerability Disclosure (CVD)-procedure is ingericht en gepubliceerd volgens de NCSC-leidraad of NEN-EN-ISO/IEC 29147:2020 Vulnerability disclosure. Informatie afkomstig uit de Coordinated Vulnerability Disclosure (CVD)-meldingen is onderdeel van de incidentrapportage.",
+      "iv_standaard": "Vulnerability & patchmanagement"
+    },
+    {
+      "id": "8.09.01",
+      "titel": "Configuratiebeheer",
+      "iso_maatregel": "Configuraties, met inbegrip van beveiligings-configuraties, van hardware, software, diensten en netwerken moeten worden vastgesteld, gedocumenteerd, geïmplementeerd, gemonitord en \nbeoordeeld.",
+      "risico": "insecure configurations expose systems to attack.",
+      "overheidsmaatregel": "Geen overheidsmaatregel, zie deel 1 Kader BIO2, verplichtingen BIO",
+      "iv_standaard": "Vulnerability & patchmanagement"
+    },
+    {
+      "id": "8.10.01",
+      "titel": "Wissen van informatie",
+      "iso_maatregel": "In informatiesystemen, apparaten of andere opslagmedia opgeslagen informatie moet worden gewist als deze niet langer vereist is",
+      "risico": "residual data remains accessible after deletion.",
+      "overheidsmaatregel": "Geen overheidsmaatregel, zie deel 1 Kader BIO2, verplichtingen BIO",
+      "iv_standaard": "Afvoer en hergebruik gegevensdragers"
+    },
+    {
+      "id": "8.11.01",
+      "titel": "Maskeren van gegevens",
+      "iso_maatregel": "Gegevens moeten worden gemaskeerd overeenkomstig het onderwerpspecifieke beleid inzake toegangsbeveiliging en andere gerelateerde onderwerpspecifieke beleidsregels, en bedrijfseisen van de organisatie, rekening houdend met de \ntoepasselijke wetgeving.",
+      "risico": "sensitive data is exposed in non-production or shared environments.",
+      "overheidsmaatregel": "Geen overheidsmaatregel, zie deel 1 Kader BIO2, verplichtingen BIO",
+      "iv_standaard": "IT-Compliance"
+    },
+    {
+      "id": "8.12.01",
+      "titel": "Voorkomen van gegevenslekken \n(data leakage prevention)",
+      "iso_maatregel": "Maatregelen om gegevenslekken te voorkomen moeten worden toegepast in systemen, netwerken en andere apparaten waarop of waarmee gevoelige informatie wordt verwerkt, opgeslagen of \ngetransporteerd.",
+      "risico": "data is exfiltrated intentionally or accidentally.",
+      "overheidsmaatregel": "Geen overheidsmaatregel, zie deel 1 Kader BIO2, verplichtingen BIO",
+      "iv_standaard": "IT-Compliance"
+    },
+    {
+      "id": "8.13.01",
+      "titel": "Back-up van informatie",
+      "iso_maatregel": "Back-ups van informatie, software en systemen moeten worden bewaard en regelmatig worden getest overeenkomstig het overeengekomen onderwerpspecifieke beleid inzake back-ups.",
+      "risico": "data cannot be restored after loss or corruption.",
+      "overheidsmaatregel": "Er is een back-upbeleid waarin de eisen voor het bewaren en beschermen zijn gedefinieerd en vastgesteld. Er moet speciale aandacht zijn voor het beschermen van de back-up tegen ransomware-aanvallen en genomen maatregelen om de integriteit van de back-up te behouden.",
+      "iv_standaard": "Back-up & Recovery"
+    },
+    {
+      "id": "8.13.02",
+      "titel": "Back-up van informatie",
+      "iso_maatregel": "Back-ups van informatie, software en systemen moeten worden bewaard en regelmatig worden getest overeenkomstig het overeengekomen onderwerpspecifieke beleid inzake back-ups.",
+      "risico": "data cannot be restored after loss or corruption.",
+      "overheidsmaatregel": "Op basis van een expliciete risicoafweging is bepaald wat het maximaal toegestane dataverlies is en wat de maximale hersteltijd is na een incident.",
+      "iv_standaard": "Back-up & Recovery"
+    },
+    {
+      "id": "8.13.03",
+      "titel": "Back-up van informatie",
+      "iso_maatregel": "Back-ups van informatie, software en systemen moeten worden bewaard en regelmatig worden getest overeenkomstig het overeengekomen onderwerpspecifieke beleid inzake back-ups.",
+      "risico": "data cannot be restored after loss or corruption.",
+      "overheidsmaatregel": "Het back-upproces voorziet in de opslag van de back-up op een locatie, waarbij een incident op de ene locatie niet kan leiden tot schade op de andere.",
+      "iv_standaard": "Back-up & Recovery"
+    },
+    {
+      "id": "8.13.04",
+      "titel": "Back-up van informatie",
+      "iso_maatregel": "Back-ups van informatie, software en systemen moeten worden bewaard en regelmatig worden getest overeenkomstig het overeengekomen onderwerpspecifieke beleid inzake back-ups.",
+      "risico": "data cannot be restored after loss or corruption.",
+      "overheidsmaatregel": "De herstelprocedure wordt minimaal jaarlijks getest of na een grote wijziging, om de goede werking te waarborgen als deze in noodgevallen uitgevoerd moet worden.",
+      "iv_standaard": "Back-up & Recovery"
+    },
+    {
+      "id": "8.14.01",
+      "titel": "Redundantie van \ninformatieverwerkende faciliteiten",
+      "iso_maatregel": "Informatieverwerkende faciliteiten moeten met voldoende redundantie worden geïmplementeerd om aan beschikbaarheidseisen te voldoen.",
+      "risico": "single points of failure disrupt services.",
+      "overheidsmaatregel": "Geen overheidsmaatregel, zie deel 1 Kader BIO2, verplichtingen BIO",
+      "iv_standaard": "Business Continuity & Disaster Recovery"
+    },
+    {
+      "id": "8.15.01",
+      "titel": "Logging",
+      "iso_maatregel": "Er moeten logbestanden waarin activiteiten, uitzonderingen, fouten en andere relevante gebeurtenissen worden geregistreerd, worden geproduceerd, opgeslagen, beschermd en \ngeanalyseerd.",
+      "risico": "security events are not traceable or detectable.",
+      "overheidsmaatregel": "Een logregel bevat minimaal:\n- Actie: de gebeurtenis of handeling die heeft plaatsgevonden.\n- Object: waarop de gebeurtenis of handeling effect had (bijvoorbeeld welk bestand, proces of systeem).\n- Resultaat: het resultaat van de gebeurtenis of handeling.\n- Oorsprong: het apparaat of de netwerklocatie van waaruit de gebeurtenis of handeling in gang is gezet.\n- Actor: identificatie van de persoon die of het proces dat de gebeurtenis in gang heeft gezet.\n- Tijdstempel: datum en tijdstip waarop de gebeurtenis of handeling plaatsvond.",
+      "iv_standaard": "Logging & monitoring"
+    },
+    {
+      "id": "8.15.02",
+      "titel": "Logging",
+      "iso_maatregel": "Er moeten logbestanden waarin activiteiten, uitzonderingen, fouten en andere relevante gebeurtenissen worden geregistreerd, worden geproduceerd, opgeslagen, beschermd en \ngeanalyseerd.",
+      "risico": "security events are not traceable or detectable.",
+      "overheidsmaatregel": "Een logregel bevat nooit gegevens die tot het doorbreken van de beveiliging kunnen leiden.",
+      "iv_standaard": "Logging & monitoring"
+    },
+    {
+      "id": "8.15.03",
+      "titel": "Logging",
+      "iso_maatregel": "Er moeten logbestanden waarin activiteiten, uitzonderingen, fouten en andere relevante gebeurtenissen worden geregistreerd, worden geproduceerd, opgeslagen, beschermd en \ngeanalyseerd.",
+      "risico": "security events are not traceable or detectable.",
+      "overheidsmaatregel": "Er is een overzicht van logbestanden die worden gegenereerd.",
+      "iv_standaard": "Logging & monitoring"
+    },
+    {
+      "id": "8.15.04",
+      "titel": "Logging",
+      "iso_maatregel": "Er moeten logbestanden waarin activiteiten, uitzonderingen, fouten en andere relevante gebeurtenissen worden geregistreerd, worden geproduceerd, opgeslagen, beschermd en \ngeanalyseerd.",
+      "risico": "security events are not traceable or detectable.",
+      "overheidsmaatregel": "De bewaartermijn van logbestanden en gegevens in het Security Incident en Event Monitoring (SIEM) worden risicogericht bepaald, rekening houdend met het scenario dat aanvallers langdurig binnen zijn.",
+      "iv_standaard": "Logging & monitoring"
+    },
+    {
+      "id": "8.15.05",
+      "titel": "Logging",
+      "iso_maatregel": "Er moeten logbestanden waarin activiteiten, uitzonderingen, fouten en andere relevante gebeurtenissen worden geregistreerd, worden geproduceerd, opgeslagen, beschermd en \ngeanalyseerd.",
+      "risico": "security events are not traceable or detectable.",
+      "overheidsmaatregel": "Oneigenlijk wijzigen, verwijderen of pogingen daartoe van loggegevens worden zo snel mogelijk gemeld als informatiebeveiligingsincident via de procedure voor informatiebeveiligingsincidenten volgens beheersmaatregel 5.24.",
+      "iv_standaard": "Logging & monitoring"
+    },
+    {
+      "id": "8.15.06",
+      "titel": "Logging",
+      "iso_maatregel": "Er moeten logbestanden waarin activiteiten, uitzonderingen, fouten en andere relevante gebeurtenissen worden geregistreerd, worden geproduceerd, opgeslagen, beschermd en \ngeanalyseerd.",
+      "risico": "security events are not traceable or detectable.",
+      "overheidsmaatregel": "Op basis van een expliciete risicoafweging bepaalt de organisatie de periodieke toetsing op het ongewijzigd bestaan van logbestanden gedurende de bewaartermijn.\nToetsing wordt uitgevoerd door een onafhankelijke functionaris (ten opzichte van de uitvoering).",
+      "iv_standaard": "Logging & monitoring"
+    },
+    {
+      "id": "8.16.01",
+      "titel": "Monitoren van activiteiten",
+      "iso_maatregel": "Netwerken, systemen en toepassingen moeten worden gemonitord op afwijkend gedrag en er moeten passende maatregelen worden getroffen om potentiële informatiebeveiligingsincidenten te evalueren.",
+      "risico": "attacks or misuse go unnoticed.",
+      "overheidsmaatregel": "Bij ontdekte nieuwe dreigingen (aanvallen) via overheidsmaatregel 8.16.3 worden deze binnen geldende juridische kaders verplicht gedeeld met de daarvoor aangewezen Computer Emergency Response Team (CERT).",
+      "iv_standaard": "Logging & monitoring"
+    },
+    {
+      "id": "8.16.02",
+      "titel": "Monitoren van activiteiten",
+      "iso_maatregel": "Netwerken, systemen en toepassingen moeten worden gemonitord op afwijkend gedrag en er moeten passende maatregelen worden getroffen om potentiële informatiebeveiligingsincidenten te evalueren.",
+      "risico": "attacks or misuse go unnoticed.",
+      "overheidsmaatregel": "Het SIEM- en/of het SOC-monitoring-proces hebben eenduidige regels over wanneer een incident moet worden gerapporteerd aan het verantwoordelijke management.",
+      "iv_standaard": "Logging & monitoring"
+    },
+    {
+      "id": "8.16.03",
+      "titel": "Monitoren van activiteiten",
+      "iso_maatregel": "Netwerken, systemen en toepassingen moeten worden gemonitord op afwijkend gedrag en er moeten passende maatregelen worden getroffen om potentiële informatiebeveiligingsincidenten te evalueren.",
+      "risico": "attacks or misuse go unnoticed.",
+      "overheidsmaatregel": "De informatieverwerkende omgeving wordt gemonitord met een detectie- en response-oplossing, waarmee aanvallen kunnen worden gedetecteerd en afwijkingen adequaat en tijdig worden behandeld.",
+      "iv_standaard": "Logging & monitoring"
+    },
+    {
+      "id": "8.16.04",
+      "titel": "Monitoren van activiteiten",
+      "iso_maatregel": "Netwerken, systemen en toepassingen moeten worden gemonitord op afwijkend gedrag en er moeten passende maatregelen worden getroffen om potentiële informatiebeveiligingsincidenten te evalueren.",
+      "risico": "attacks or misuse go unnoticed.",
+      "overheidsmaatregel": "Actieve netwerkcomponenten zijn voorzien van logging en monitoring van die logging om afwijkende gebeurtenissen te kunnen waarnemen en daarop te reageren.",
+      "iv_standaard": "Logging & monitoring"
+    },
+    {
+      "id": "8.17.01",
+      "titel": "Kloksynchronisatie",
+      "iso_maatregel": "De klokken van informatieverwerkende systemen die door de organisatie worden gebruikt, moeten worden gesynchroniseerd met goedgekeurde tijdbronnen",
+      "risico": "inaccurate timestamps undermine investigations.",
+      "overheidsmaatregel": "Geen overheidsmaatregel, zie deel 1 Kader BIO2, verplichtingen BIO",
+      "iv_standaard": "IT-Compliance"
+    },
+    {
+      "id": "8.18.01",
+      "titel": "Gebruik van speciale \nsysteemhulpmiddelen",
+      "iso_maatregel": "Het gebruik van systeemhulpmiddelen die in staat kunnen zijn om beheersmaatregelen voor systemen en toepassingen te omzeilen, moet worden beperkt en nauwkeurig worden gecontroleerd.",
+      "risico": "powerful tools are misused to bypass controls.",
+      "overheidsmaatregel": "Alleen bevoegd personeel heeft op die momenten dat toegang strikt noodzakelijk is toegang tot systeemhulpmiddelen.",
+      "iv_standaard": "Logische toegangsbeveiliging"
+    },
+    {
+      "id": "8.18.02",
+      "titel": "Gebruik van speciale \nsysteemhulpmiddelen",
+      "iso_maatregel": "Het gebruik van systeemhulpmiddelen die in staat kunnen zijn om beheersmaatregelen voor systemen en toepassingen te omzeilen, moet worden beperkt en nauwkeurig worden gecontroleerd.",
+      "risico": "powerful tools are misused to bypass controls.",
+      "overheidsmaatregel": "Het gebruik van systeemhulpmiddelen wordt gelogd.\nDe logging is een halfjaar beschikbaar voor onderzoek.",
+      "iv_standaard": "Logische toegangsbeveiliging"
+    },
+    {
+      "id": "8.19.01",
+      "titel": "Installeren van software op \noperationele systemen",
+      "iso_maatregel": "Er moeten procedures en maatregelen worden \ngeïmplementeerd om het installeren van software op \noperationele systemen op veilige wijze te beheren.",
+      "risico": "unauthorized software introduces vulnerabilities.",
+      "overheidsmaatregel": "Het risico van installatie door gebruikers van niet geautoriseerde software moet worden beheerst.",
+      "iv_standaard": "Wijzigingsbeheer"
+    },
+    {
+      "id": "8.20.01",
+      "titel": "Beveiliging netwerkcomponenten",
+      "iso_maatregel": "Netwerken en netwerkapparaten moeten worden beveiligd, beheerd en beheerst om informatie in systemen en toepassingen te beschermen.",
+      "risico": "network weaknesses enable interception or attacks.",
+      "overheidsmaatregel": "Netwerkcomponenten moeten minimaal voldoen aan het vertrouwelijkheidsniveau van het netwerk waarvan ze onderdeel zijn.",
+      "iv_standaard": "Netwerkbeveiliging"
+    },
+    {
+      "id": "8.20.02",
+      "titel": "Beveiliging netwerkcomponenten",
+      "iso_maatregel": "Netwerken en netwerkapparaten moeten worden beveiligd, beheerd en beheerst om informatie in systemen en toepassingen te beschermen.",
+      "risico": "network weaknesses enable interception or attacks.",
+      "overheidsmaatregel": "Toegang tot beheerinterfaces van netwerkcomponenten moet (zo veel als mogelijk en risicogericht) gescheiden zijn van het gebruikersnetwerk.",
+      "iv_standaard": "Netwerkbeveiliging"
+    },
+    {
+      "id": "8.21.01",
+      "titel": "Beveiliging van netwerkdiensten",
+      "iso_maatregel": "Beveiligingsmechanismen, dienstverleningsniveaus en dienstverleningseisen voor alle netwerkdiensten moeten worden geïdentificeerd, geïmplementeerd en gemonitord.",
+      "risico": "insecure services expose systems to threats.",
+      "overheidsmaatregel": "In koppelpunten met externe of onvertrouwde zones en vanwege netwerksegmentatie zijn maatregelen getroffen om mogelijke aanvallen die de beschikbaarheid van de informatievoorziening negatief beïnvloeden (bijvoorbeeld DDoS-aanvallen, Distributed Denial of Service attacks) te signaleren en te mitigeren.",
+      "iv_standaard": "Netwerkbeveiliging"
+    },
+    {
+      "id": "8.21.02",
+      "titel": "Beveiliging van netwerkdiensten",
+      "iso_maatregel": "Beveiligingsmechanismen, dienstverleningsniveaus en dienstverleningseisen voor alle netwerkdiensten moeten worden geïdentificeerd, geïmplementeerd en gemonitord.",
+      "risico": "insecure services expose systems to threats.",
+      "overheidsmaatregel": "Bij ontdekte nieuwe dreigingen vanuit overheidsmaatregel worden deze doorgeleid, rekening houdend met de geldende juridische kaders gedeeld binnen de overheid. Overheidsmaatregel- Overheidsmaatregel nummer",
+      "iv_standaard": "Netwerkbeveiliging"
+    },
+    {
+      "id": "8.21.03",
+      "titel": "Beveiliging van netwerkdiensten",
+      "iso_maatregel": "Beveiligingsmechanismen, dienstverleningsniveaus en dienstverleningseisen voor alle netwerkdiensten moeten worden geïdentificeerd, geïmplementeerd en gemonitord.",
+      "risico": "insecure services expose systems to threats.",
+      "overheidsmaatregel": "Bij ontdekte nieuwe dreigingen vanuit overheidsmaatregel 8.21.02 worden deze doorgeleid, rekening houdend met de geldende juridische kaders gedeeld binnen de overheid.",
+      "iv_standaard": "Netwerkbeveiliging"
+    },
+    {
+      "id": "8.21.04",
+      "titel": "Beveiliging van netwerkdiensten",
+      "iso_maatregel": "Beveiligingsmechanismen, dienstverleningsniveaus en dienstverleningseisen voor alle netwerkdiensten moeten worden geïdentificeerd, geïmplementeerd en gemonitord.",
+      "risico": "insecure services expose systems to threats.",
+      "overheidsmaatregel": "Bij transport van gegevens over draadloze verbindingen zoals wifi en bij bedrade verbindingen buiten het gecontroleerd gebied worden de gegevens versleuteld met uitzondering van metagegevens die noodzakelijk zijn om het transport tot stand te laten komen. De inrichting van de versleuteling is risicogericht en houdt rekening met de noodzakelijke beschermingstermijn en -niveau.\n\nHierbij wordt bij voorkeur gebruik gemaakt van encryptiemiddelen waarvoor de Unit Weerbaarheid van de Algemene Inlichtingen en Veiligheidsdienst (AIVD) een positief inzetadvies heeft afgegeven. Heeft de Unit Weerbaarheid geen geadviseerde encryptiemiddelen, wordt in overleg met de CISO een andere geschikte versleutelingsmethodiek gekozen en ingericht.",
+      "iv_standaard": "Netwerkbeveiliging"
+    },
+    {
+      "id": "8.22.01",
+      "titel": "Netwerksegmentatie",
+      "iso_maatregel": "Groepen informatiediensten, gebruikers en informatiesystemen moeten in de netwerken van de organisatie worden gesegmenteerd.",
+      "risico": "lack of segmentation allows lateral movement by attackers.",
+      "overheidsmaatregel": "Alle gescheiden groepen hebben een gedefinieerd beveiligingsniveau.",
+      "iv_standaard": "Netwerkbeveiliging"
+    },
+    {
+      "id": "8.23.01",
+      "titel": "Toepassen van webfilters",
+      "iso_maatregel": "De toegang tot externe websites moet worden beheerd om de blootstelling aan kwaadaardige inhoud te beperken.",
+      "risico": "users access malicious or inappropriate content.",
+      "overheidsmaatregel": "Geen overheidsmaatregel, zie deel 1 Kader BIO2, verplichtingen BIO",
+      "iv_standaard": "Netwerkbeveiliging"
+    },
+    {
+      "id": "8.24.01",
+      "titel": "Gebruik van cryptografie",
+      "iso_maatregel": "Regels voor het doeltreffende gebruik van cryptografie, met inbegrip van het beheer van cryptografische sleutels, moeten worden gedefinieerd en geïmplementeerd.",
+      "risico": "data is exposed due to weak or absent encryption.",
+      "overheidsmaatregel": "In het cryptografiebeleid zijn minimaal de volgende onderwerpen uitgewerkt: \n- Wanneer cryptografie ingezet wordt.\n- Wie verantwoordelijk is voor de implementatie.\n- Wie verantwoordelijk is voor het sleutelbeheer.\n- Hoe geregistreerd wordt waar welke cryptografie toegepast wordt.\n- Welke normen als basis dienen voor cryptografie en de wijze waarop de normen van het Forum \n  Standaardisatie worden toegepast.\n- De wijze waarop het beschermingsniveau vastgesteld wordt.\n- Bij communicatie tussen organisaties wordt het beleid onderling vastgesteld.",
+      "iv_standaard": "Cryptografie"
+    },
+    {
+      "id": "8.25.01",
+      "titel": "Beveiligen tijdens de ontwikkelcyclus",
+      "iso_maatregel": "Voor het veilig ontwikkelen van software en systemen moeten regels worden vastgesteld en toegepast.",
+      "risico": "insecure development practices introduce vulnerabilities.",
+      "overheidsmaatregel": "Geen overheidsmaatregel, zie deel 1 Kader BIO2, verplichtingen BIO",
+      "iv_standaard": "Secure Software Development"
+    },
+    {
+      "id": "8.26.01",
+      "titel": "Toepassingsbeveiligingseisen",
+      "iso_maatregel": "Er moeten eisen aan de informatiebeveiliging worden geïdentificeerd, gespecificeerd en goedgekeurd bij het ontwikkelen of aanschaffen van toepassingen",
+      "risico": "applications fail to protect sensitive information.",
+      "overheidsmaatregel": "Geen overheidsmaatregel, zie deel 1 Kader BIO2, verplichtingen BIO",
+      "iv_standaard": "Secure Software Development"
+    },
+    {
+      "id": "8.27.01",
+      "titel": "Veilige systeemarchitectuur en \ntechnische uitgangspunten",
+      "iso_maatregel": "Uitgangspunten voor het ontwerpen van beveiligde systemen moeten worden vastgesteld, gedocumenteerd, onderhouden en toegepast voor alle activiteiten betreffende het ontwikkelen van \ninformatiesystemen.",
+      "risico": "weak design choices create systemic vulnerabilities.",
+      "overheidsmaatregel": "Architectuurprincipes zoals ‘security by design’ en ‘security by default’ voor het ontwerpen van beveiliging van informatiesystemen worden vastgesteld, gedocumenteerd, onderhouden en toegepast voor alle activiteiten over het ontwikkelen van informatiesystemen.",
+      "iv_standaard": "Secure Software Development"
+    },
+    {
+      "id": "8.28.01",
+      "titel": "Veilig coderen",
+      "iso_maatregel": "Er moeten principes voor veilig coderen worden toegepast op softwareontwikkeling.",
+      "risico": "coding flaws enable exploitation.",
+      "overheidsmaatregel": "Geen overheidsmaatregel, zie deel 1 Kader BIO2, verplichtingen BIO",
+      "iv_standaard": "Secure Software Development"
+    },
+    {
+      "id": "8.29.01",
+      "titel": "Testen van de beveiliging tijdens \nontwikkeling en acceptatie",
+      "iso_maatregel": "Processen voor het testen van de beveiliging moeten worden gedefinieerd en geïmplementeerd in de ontwikkelcyclus",
+      "risico": "vulnerabilities reach production systems.",
+      "overheidsmaatregel": "Voor acceptatietesten van systemen worden gestructureerde testmethodieken gebruikt. De testen worden bij voorkeur geautomatiseerd uitgevoerd. Van de resultaten van de testen wordt verslag gemaakt.",
+      "iv_standaard": "Wijzigingsbeheer"
+    },
+    {
+      "id": "8.30.01",
+      "titel": "Uitbestede systeemontwikkeling",
+      "iso_maatregel": "De organisatie moet de activiteiten in verband met uitbestede systeemontwikkeling sturen, bewaken en beoordelen.",
+      "risico": "third-party developers introduce security weaknesses.",
+      "overheidsmaatregel": "Interne maatregelen voor systeemontwikkeling zijn onverkort van toepassing op uitbestede ontwikkeling, aangevuld met maatregelen die volgen vanuit uitbestedingen.",
+      "iv_standaard": "Secure Software Development"
+    },
+    {
+      "id": "8.31.01",
+      "titel": "Scheiding van ontwikkel-, test- en \nproductieomgevingen",
+      "iso_maatregel": "Ontwikkel-, test- en productieomgevingen moeten worden gescheiden en beveiligd.",
+      "risico": "unauthorized changes affect live systems.",
+      "overheidsmaatregel": "In de productieomgeving wordt niet getest. Alleen met voorafgaande goedkeuring door de proceseigenaar kan hiervan worden afgeweken.",
+      "iv_standaard": "Wijzigingsbeheer"
+    },
+    {
+      "id": "8.31.02",
+      "titel": "Scheiding van ontwikkel-, test- en \nproductieomgevingen",
+      "iso_maatregel": "Ontwikkel-, test- en productieomgevingen moeten worden gescheiden en beveiligd.",
+      "risico": "unauthorized changes affect live systems.",
+      "overheidsmaatregel": "Significante wijzigingen in de productieomgeving worden altijd getest voordat zij in productie gebracht worden. Alleen met voorafgaande goedkeuring door de proceseigenaar kan hiervan worden afgeweken.",
+      "iv_standaard": "Wijzigingsbeheer"
+    },
+    {
+      "id": "8.32.01",
+      "titel": "Wijzigingsbeheer",
+      "iso_maatregel": "Wijzigingen in informatieverwerkende faciliteiten en \ninformatiesystemen moeten onderworpen zijn aan procedures voor wijzigingsbeheer.",
+      "risico": "uncontrolled changes cause outages or vulnerabilities.",
+      "overheidsmaatregel": "In het wijzigingsbeheerproces is minimaal aandacht besteed aan:\n- het administreren van wijzigingen, met de resultaten van het testplan;\n- een risicoafweging van mogelijke gevolgen van de wijzigingen, inclusief een beschreven rollbackplan;\n- de goedkeuringsprocedure voor wijzigingen.",
+      "iv_standaard": "Wijzigingsbeheer"
+    },
+    {
+      "id": "8.32.02",
+      "titel": "Wijzigingsbeheer",
+      "iso_maatregel": "Wijzigingen in informatieverwerkende faciliteiten en \ninformatiesystemen moeten onderworpen zijn aan procedures voor wijzigingsbeheer.",
+      "risico": "uncontrolled changes cause outages or vulnerabilities.",
+      "overheidsmaatregel": "Wijzigingsbeheer vindt plaats op basis van een algemeen geaccepteerd beheerraamwerk.",
+      "iv_standaard": "Wijzigingsbeheer"
+    },
+    {
+      "id": "8.33.01",
+      "titel": "Testgegevens",
+      "iso_maatregel": "Testgegevens moeten op passende wijze worden geselecteerd, beschermd en beheerd.",
+      "risico": "real data is exposed in test environments.",
+      "overheidsmaatregel": "Geen overheidsmaatregel, zie deel 1 Kader BIO2, verplichtingen BIO",
+      "iv_standaard": "Wijzigingsbeheer"
+    },
+    {
+      "id": "8.34.01",
+      "titel": "Bescherming van informatiesystemen \ntijdens audits",
+      "iso_maatregel": "Audittests en andere auditactiviteiten waarbij operationele systemen worden beoordeeld, moeten worden gepland en overeengekomen tussen de tester en het verantwoordelijkemanagement.",
+      "risico": "audit activities disrupt systems or expose data.",
+      "overheidsmaatregel": "Geen overheidsmaatregel, zie deel 1 Kader BIO2, verplichtingen BIO",
+      "iv_standaard": "IT-Compliance"
+    },
+    {
+      "id": "5.24.08",
+      "titel": "Coordinated Vulnerability Disclosure",
+      "iso_maatregel": "",
+      "risico": "",
+      "overheidsmaatregel": "",
+      "iv_standaard": ""
+    }
+  ]
+}

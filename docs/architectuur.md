@@ -7,18 +7,38 @@
 ## Overzicht
 
 ```
-Gebruiker → Frontend (Next.js) → API (FastAPI) → Agents → LLM (Mistral EU)
-                                              ↓
-                                    Regelgevingsdatabase (pgvector)
-                                              ↑
-                                    Regelgevingscrawler (Celery)
+Browser (Next.js)
+        ↕
+  FastAPI (Python)
+        ↕                    ↕
+  PostgreSQL           Mistral EU (LLM)
+  (documenten)         (via API-key in .env)
+        ↑
+  data/bio2.json
+  data/domeinen.json
+  (statische kennisbasis)
 ```
+
+Geen vector-database in v1. De BIO2-kennisbasis is een statisch JSON-bestand dat bij elke
+agent-aanroep als platte tekst in de prompt wordt meegestuurd.
 
 ---
 
 ## Componenten
 
-### 1. LLM-client
+### 1. Kennisbasis (statisch)
+
+Twee JSON-bestanden in de repo:
+
+| Bestand | Inhoud |
+|---------|--------|
+| `data/bio2.json` | 148 BIO2-controls v1.3 (id, titel, iso_maatregel, overheidsmaatregel) |
+| `data/domeinen.json` | ~15 beleidsdomeinen, elk met een lijst van relevante control-ID's |
+
+Bij een agent-aanroep laadt de API de controls voor het gekozen domein en voegt die als context
+toe aan de prompt. Simpel en snel genoeg voor v1.
+
+### 2. LLM-client
 
 OpenAI-compatible interface, configureerbaar via omgevingsvariabelen:
 
@@ -27,82 +47,78 @@ OpenAI-compatible interface, configureerbaar via omgevingsvariabelen:
 | `AI_API_BASE` | `https://api.mistral.ai/v1` | API-endpoint |
 | `AI_API_KEY` | — | API-sleutel |
 | `AI_MODEL_NAME` | `mistral-small-latest` | Taalmodel |
-| `AI_EMBEDDING_MODEL` | `mistral-embed` | Embedding-model voor RAG |
 
 Alternatief: volledig lokaal via Ollama (`http://localhost:11434/v1`). Geen vendor lock-in.
 
-### 2. AI-agents
+### 3. AI-agents
 
-Vijf gespecialiseerde agents, elk met een eigen verantwoordelijkheid:
+Twee agents voor v1:
 
-| Agent | Bestand | Verantwoordelijkheid |
-|-------|---------|---------------------|
-| `beleid_agent` | `agents/beleid_agent.py` | Genereert concept-beleidsdocumenten via gesprek |
-| `compliance_scan_agent` | `agents/compliance_scan_agent.py` | Scant documenten tegen regelgeving |
-| `impact_agent` | `agents/impact_agent.py` | Analyseert impact van regelgevingswijzigingen |
-| `samenvatting_agent` | `agents/samenvatting_agent.py` | Vat wet- en regelgeving samen |
-| `regelgeving_scan_agent` | `agents/regelgeving_scan_agent.py` | Ontdekt relevante regelgeving voor een domein |
+| Agent | Verantwoordelijkheid |
+|-------|---------------------|
+| `beleid_agent` | Stelt verduidelijkingsvragen en genereert het beleidsdocument (streaming) |
+| `compliance_scan_agent` | Toetst een bestaand document aan de BIO2-vereisten voor een domein |
 
-Elke agent:
-1. Haalt relevante regelgeving op via RAG
-2. Voert een gesprek met de gebruiker
-3. Genereert een concept-document (gelabeld `AI CONCEPT — verifieer handmatig`)
-4. Logt elke LLM-aanroep voor auditbaarheid
+Beide agents:
+1. Laden de relevante BIO2-controls voor het domein uit `data/domeinen.json` + `data/bio2.json`
+2. Voeren een gesprek met de gebruiker
+3. Genereren output gelabeld als `AI CONCEPT — verifieer handmatig`
+4. Loggen elke LLM-aanroep voor auditbaarheid
 
-### 3. RAG-pipeline
+### 4. Streaming (SSE)
 
-Semantisch zoeken via pgvector cosine similarity.
+De beleid_agent streamt het beleidsdocument via Server-Sent Events, zodat de gebruiker real-time
+ziet hoe het document wordt opgebouwd.
 
-**Kennislagen:**
-- **Normatief** — gedeelde regelgevingsteksten: AVG, Omgevingswet, sectorale verordeningen, IBD-richtlijnen
-- **Organisatie** — organisatiespecifieke beleidsdocumenten en eerder opgeleverde outputs
+### 5. Frontend
 
-Bij elke agent-aanroep worden de top-3 meest relevante fragmenten als context meegestuurd.
+Next.js + Tailwind CSS — geen afhankelijkheid van externe UI-bibliotheken. Vier pagina's:
 
-### 4. Regelgevingscrawler
-
-Celery-taak die periodiek wet- en regelgeving ophaalt en indexeert:
-- Ophalen van regelgevingsdocumenten (PDF, HTML)
-- Chunken en embedden
-- Opslaan in pgvector
-
-Dit houdt de kennisbank actueel zonder handmatige interventie.
-
-### 5. Streaming (SSE)
-
-Agents streamen hun output via Server-Sent Events, zodat de gebruiker real-time ziet hoe het concept wordt opgebouwd. Dit is vooral relevant bij langere documenten.
-
-### 6. Frontend
-
-Next.js — zelfde stack als grc-platform. Per agent een aparte pagina; gedeelde componenten voor chat-interface en document-preview.
+| Route | Functie |
+|-------|---------|
+| `/` | Documentenlijst met status |
+| `/nieuw` | Domein kiezen → vragen beantwoorden → document genereren |
+| `/[id]` | Document bekijken, bewerken, exporteren |
+| `/scan` | Compliance-scan van bestaand document |
 
 ---
 
-## Datamodel (kern)
+## Datamodel
 
-| Tabel | Wat het bevat |
-|-------|--------------|
-| `beleid_documenten` | Gegenereerde en goedgekeurde beleidsdocumenten |
-| `regelgeving` | Geïndexeerde wet- en regelgevingsteksten |
-| `regelgeving_chunks` | Vectorrepresentaties voor RAG |
-| `agent_sessies` | Gesprekgeschiedenis per agent-aanroep |
-| `ai_audit_log` | Elke LLM-aanroep (model, tokens, agent, tijdstip) |
+Twee tabellen — minimaal voor v1:
+
+| Tabel | Inhoud |
+|-------|--------|
+| `beleid_documenten` | Gegenereerde beleidsdocumenten (titel, domein, inhoud als Markdown, status, timestamps) |
+| `agent_sessies` | Gespreksgeschiedenis per document (voor doorgaan waar je gebleven was) |
+
+Statussen: `concept` → `ter_review` → `vastgesteld` → `gearchiveerd`
 
 ---
 
 ## Auditbaarheid
 
-Elke LLM-aanroep wordt vastgelegd: welke agent, welk model, hoeveel tokens, op welk tijdstip. Gegenereerde documenten zijn altijd herleidbaar tot de regelgevingsfragmenten die als context zijn gebruikt.
+Elke LLM-aanroep wordt vastgelegd (agent, model, tokens, tijdstip). Gegenereerde documenten
+vermelden welke BIO2-controls als context zijn gebruikt.
 
 ---
 
 ## Designkeuzes
 
-**Waarom vijf losse agents en geen één generieke?**  
-Elk beleidsdomein vereist een andere aanpak: een compliance-scan is fundamenteel anders dan het schrijven van een nieuw beleidsdocument. Losse agents met gerichte systeem-prompts presteren beter dan één generieke assistent.
+**Waarom geen vector-database in v1?**
+De kennisbasis (BIO2-controls per domein) is klein genoeg om als platte tekst in de prompt mee
+te sturen. pgvector voegt complexiteit toe zonder merkbaar voordeel op deze schaal. Fase 2
+(regelgevingscrawler) introduceert pgvector wanneer dat nodig is.
 
-**Waarom Celery voor de crawler?**  
-Regelgevingsupdates moeten asynchroon en periodiek verwerkt worden zonder de API te blokkeren. Celery is de standaardkeuze voor Python-achtergrondtaken.
+**Waarom domeinen en niet losse controls?**
+Een beleidsmedewerker schrijft ~15 materie-specifieke beleidsdocumenten, niet 148. Elk document
+dekt een domein (bijv. "Toegangsbeveiliging") en beschrijft de beleidsprincipes voor alle
+relevante BIO2-controls in dat domein. Één document per control is onwerkbaar in de praktijk.
 
-**Waarom dezelfde stack als grc-platform?**  
-GRC en beleid zijn verwante domeinen — organisaties die het ene gebruiken, hebben vaak ook het andere nodig. Gedeelde technologie (FastAPI, pgvector, Next.js) maakt integratie eenvoudiger en de community groter.
+**Waarom Mistral EU als standaard?**
+Gegevenssoevereiniteit — verwerking blijft binnen de EU. Volledig uitwisselbaar via de
+OpenAI-compatible interface.
+
+**Waarom dezelfde agentbasis als grc-platform?**
+GRC en beleid zijn verwante domeinen. Gedeelde technologie maakt toekomstige integratie
+eenvoudiger en de community groter.

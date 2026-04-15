@@ -6,25 +6,49 @@
 
 ## Het probleem
 
-Beleidsmedewerkers bij gemeenten en andere publieke organisaties werken met een veelheid aan wet- en regelgeving: AVG, Omgevingswet, Gemeentewet, sectorale verordeningen, rijksbeleid. Het bijhouden van wijzigingen, het vertalen naar intern beleid, en het schrijven van beleidsdocumenten kost veel tijd — en gaat regelmatig mis door gemiste updates of inconsistente interpretaties.
+Beleidsmedewerkers bij gemeenten en andere publieke organisaties moeten materie-specifiek beveiligingsbeleid schrijven: een toegangsbeveiligingsbeleid, een incidentbeheerbeleid, een cryptografiebeleid — per domein een apart document, gebaseerd op de BIO2-vereisten. Dat werk kost veel tijd, vereist kennis van de normen, en leidt zonder goede ondersteuning tot generieke of onvolledige documenten.
 
-Bestaande tools zijn generiek. Een beleidsassistent die de Nederlandse publieke sector kent — inclusief gemeentelijke structuren, begrippenkaders en relevante wetgeving — bestaat niet als open-source oplossing.
+Bestaande tools zijn generiek. Een assistent die de BIO2-normen kent, begrijpt wat een gemeente nodig heeft, en een professioneel narratief beleidsdocument genereert — bestaat niet als open-source oplossing.
 
 ---
 
 ## Wat het is
 
-Een set van vijf gespecialiseerde AI-agents die beleidsmedewerkers ondersteunen bij:
+Een AI-assistent die beleidsmedewerkers helpt bij het opstellen van **materie-specifieke beleidsdocumenten** voor informatiebeveiliging, op basis van de Baseline Informatiebeveiliging Overheid 2 (BIO2 v1.3).
 
-| Agent | Wat het doet |
-|-------|-------------|
-| **Beleidsschrijver** | Genereert concept-beleidsdocumenten op basis van gesprekscontext en regelgeving |
-| **Compliance-scanner** | Scant bestaande documenten tegen actuele wet- en regelgeving |
-| **Impact-analyzer** | Analyseert impact van nieuwe of gewijzigde regelgeving op bestaand beleid |
-| **Samenvatting** | Vat wetgeving en regelgeving samen in begrijpelijke taal |
-| **Regelgeving-scanner** | Ontdekt welke regelgeving relevant is voor een gegeven beleidsdomein |
+De gebruiker kiest een beleidsdomein (bijv. "Toegangsbeveiliging"), beantwoordt een aantal vragen over de organisatie, en de assistent genereert een volledig beleidsdocument met:
 
-Alle agents genereren **concepten** — elk document is gelabeld als `AI CONCEPT — verifieer handmatig`. De medewerker beoordeelt, past aan en stelt vast.
+- Inleiding & aanleiding
+- Juridisch kader (BIO2-controls + wet- en regelgeving)
+- Doelstelling & scope
+- Beleidsprincipes & uitgangspunten
+- Rollen & verantwoordelijkheden
+- Handhaving
+- Evaluatie & herziening
+
+Elk document is gelabeld als `AI CONCEPT — verifieer handmatig`. De beleidsmedewerker beoordeelt, past aan en stelt vast.
+
+Naast het schrijven ondersteunt de tool een **compliance-scan**: bestaande documenten worden getoetst aan de BIO2-vereisten voor het betreffende domein.
+
+---
+
+## Beleidsdomeinen (v1)
+
+De tool werkt met ~15 beleidsdomeinen die aansluiten op de IBD-sjablonenset voor gemeenten. Elk domein groepeert de relevante BIO2-controls:
+
+| Domein | Voorbeeldcontrols |
+|--------|------------------|
+| Informatiebeveiligingsbeleid | 5.01 |
+| Organisatie & rollen | 5.02–5.08 |
+| Bedrijfsmiddelenbeheer | 5.09–5.14 |
+| Toegangsbeveiliging | 5.15–5.18 |
+| Leveranciersmanagement | 5.19–5.23 |
+| Incidentbeheer | 5.24–5.28 |
+| Bedrijfscontinuïteit | 5.29–5.30 |
+| Compliancy & audit | 5.36–5.37 |
+| Personeel & bewustzijn | 6.01–6.08 |
+| Fysieke beveiliging | 7.01–7.14 |
+| Technische maatregelen | 8.01–8.34 |
 
 ---
 
@@ -32,17 +56,18 @@ Alle agents genereren **concepten** — elk document is gelabeld als `AI CONCEPT
 
 - Beleidsmedewerkers bij gemeenten en gemeenschappelijke regelingen
 - Juridisch adviseurs in de publieke sector
-- Griffiers en raadsadviseurs
-- Teams die werken aan privacybeleid, informatiebeveiligingsbeleid, of sectorale beleidsplannen
+- Teams die werken aan informatiebeveiligingsbeleid
 
 ---
 
 ## Wat het niet is
 
+- Geen ICF-tool — de assistent schrijft beleidsdocumenten (narratief), geen control-frameworks met 6 W's per maatregel
+- Geen risicoanalyse-tool — risicoanalyse is CISO-werk en valt buiten scope
+- Geen BCM- of AVG-tool — v1 richt zich uitsluitend op informatiebeveiliging (BIO2); BCM en AVG zijn toekomstige uitbreidingen
 - Geen juridisch advies — de assistent ondersteunt, een jurist beoordeelt
-- Geen vervanging van beleidsjuristen of FG's
+- Geen black box — elke AI-uitvoer is herleidbaar tot de BIO2-bronnen die zijn gebruikt
 - Geen systeem dat externe data verzendt zonder toestemming
-- Geen black box — elke AI-uitvoer is herleidbaar tot de bronnen die zijn gebruikt
 
 ---
 
@@ -50,9 +75,9 @@ Alle agents genereren **concepten** — elk document is gelabeld als `AI CONCEPT
 
 - **Backend:** FastAPI + Python, async SQLAlchemy
 - **LLM:** OpenAI-compatible interface, Mistral EU als standaard
-- **Streaming:** Server-Sent Events voor real-time antwoorden
-- **Regelgevingscrawler:** geautomatiseerd ophalen en indexeren van wet- en regelgeving
-- **Frontend:** Next.js (zelfde stack als grc-platform)
+- **Streaming:** Server-Sent Events voor real-time weergave tijdens generatie
+- **Kennisbasis v1:** `data/bio2.json` (148 controls, BIO2 v1.3) + `data/domeinen.json` — geen vector-database nodig
+- **Frontend:** Next.js + Tailwind CSS
 - **Hosting:** Docker Compose, lokaal of EU-gehost
 
 Zie [architectuur.md](architectuur.md) voor de technische details.
@@ -61,7 +86,7 @@ Zie [architectuur.md](architectuur.md) voor de technische details.
 
 ## Status
 
-Concept-fase. De kern van de functionaliteit is uitgewerkt en getest in een productieomgeving. Het project wordt momenteel vrijgemaakt als standalone open-source module.
+Concept-fase. De kern van de functionaliteit is gebaseerd op bewezen onderdelen uit een productieomgeving en wordt vrijgemaakt als standalone open-source module.
 
 Zie [ROADMAP.md](../ROADMAP.md) voor de planning.
 
