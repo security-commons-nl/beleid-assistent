@@ -56,8 +56,26 @@ Twee agents voor v1:
 
 | Agent | Verantwoordelijkheid |
 |-------|---------------------|
-| `beleid_agent` | Stelt verduidelijkingsvragen en genereert het beleidsdocument (streaming) |
+| `beleid_agent` | Voert adaptief interview, maakt briefing-samenvatting, genereert beleidsdocument (streaming) |
 | `compliance_scan_agent` | Toetst een bestaand document aan de BIO2-vereisten voor een domein |
+
+**Persona (system prompt):** Senior beleidsadviseur voor Nederlandse publieke sector. Schrijft
+zakelijk, objectief en feitelijk op taalniveau B1/B2. Gebruikt BIO2-termen in strikte betekenis.
+Tutoyeert nooit. AI is co-piloot: stelt voor, mens beslist (AVG Art. 22).
+
+**Adaptief interview.** De `beleid_agent` stelt vragen totdat een informatiebehoefte-checklist
+gevuld is: organisatiecontext, scope, doelgroep, tone & ambitieniveau, juridisch kader, rollen,
+handhaving, domeinspecifieke kennis, evaluatiecyclus. Geen harde vragenlimiet — adaptieve diepte
+per domein. Meerdere checklist-items kunnen in één vraag samen. "Ik weet het niet" → agent
+markeert aannames in het document.
+
+**Bronnen uploaden.** Vóór het interview kan de gebruiker bestaande documenten uploaden
+(`.md`, `.txt`, `.pdf`). Tekst wordt geëxtraheerd en als context meegegeven aan de agent voor
+terminologie- en toonconsistentie.
+
+**Briefing-samenvatting.** Na het interview, vóór generatie, produceert de agent een beknopte
+samenvatting van wat hij heeft begrepen (inclusief aannames). Gebruiker keurt goed of past
+antwoorden aan. Pas daarna start de streaming-generatie.
 
 Beide agents:
 1. Laden de relevante BIO2-controls voor het domein uit `data/domeinen.json` + `data/bio2.json`
@@ -90,7 +108,7 @@ Twee tabellen — minimaal voor v1:
 | Tabel | Inhoud |
 |-------|--------|
 | `beleid_documenten` | Gegenereerde beleidsdocumenten (titel, domein, inhoud als Markdown, status, timestamps) |
-| `agent_sessies` | Gespreksgeschiedenis per document (voor doorgaan waar je gebleven was) |
+| `agent_sessies` | Gespreksgeschiedenis per document: vragen, antwoorden, briefing, geüploade bronnen |
 
 Statussen: `concept` → `ter_review` → `vastgesteld` → `gearchiveerd`
 

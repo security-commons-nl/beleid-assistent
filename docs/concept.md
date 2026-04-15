@@ -16,7 +16,7 @@ Bestaande tools zijn generiek. Een assistent die de BIO2-normen kent, begrijpt w
 
 Een AI-assistent die beleidsmedewerkers helpt bij het opstellen van **materie-specifieke beleidsdocumenten** voor informatiebeveiliging, op basis van de Baseline Informatiebeveiliging Overheid 2 (BIO2 v1.3).
 
-De gebruiker kiest een beleidsdomein (bijv. "Toegangsbeveiliging"), beantwoordt een aantal vragen over de organisatie, en de assistent genereert een volledig beleidsdocument met:
+De gebruiker kiest een beleidsdomein (bijv. "Toegangsbeveiliging"), voert een adaptief interview met de assistent, en krijgt een volledig beleidsdocument met:
 
 - Inleiding & aanleiding
 - Juridisch kader (BIO2-controls + wet- en regelgeving)
@@ -25,6 +25,19 @@ De gebruiker kiest een beleidsdomein (bijv. "Toegangsbeveiliging"), beantwoordt 
 - Rollen & verantwoordelijkheden
 - Handhaving
 - Evaluatie & herziening
+
+### Hoe het gesprek loopt
+
+1. **Optioneel: bronnen uploaden** — bestaand IB-beleid, reglementen of vergelijkbare documenten
+   (`.md`, `.txt`, `.pdf`). De assistent gebruikt ze om consistent te zijn met bestaande terminologie en toon.
+2. **Adaptief interview** — de assistent stelt vragen totdat hij genoeg weet om kwalitatief te
+   schrijven. Geen vaste vragenlimiet: simpel beleid vraagt 3-4 vragen, complex beleid 8-10.
+   "Ik weet het niet" is een geldig antwoord — de assistent markeert aannames in het document.
+3. **Briefing-samenvatting** — vóór de assistent begint te schrijven toont de tool een samenvatting
+   van wat hij heeft begrepen (organisatie, scope, doelgroep, toon, rollen, aannames). De
+   gebruiker keurt goed of past antwoorden aan.
+4. **Generatie** — het document wordt live gestreamd (Server-Sent Events) zodat de gebruiker
+   real-time ziet hoe het wordt opgebouwd.
 
 Elk document is gelabeld als `AI CONCEPT — verifieer handmatig`. De beleidsmedewerker beoordeelt, past aan en stelt vast.
 
