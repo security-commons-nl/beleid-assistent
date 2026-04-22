@@ -2,6 +2,11 @@
 
 > AI-ondersteunde beleidsassistent voor beleidsmedewerkers en juridisch adviseurs bij Nederlandse publieke organisaties.
 
+
+[![Bijdragen](https://img.shields.io/badge/📝_Bijdragen-Open_een_bericht-238636?style=for-the-badge)](../../issues/new/choose) [![Discussions](https://img.shields.io/badge/💬_Discussions-Meepraten-0969da?style=for-the-badge)](../../discussions)
+
+👉 **Iets delen, feedback geven of een vraag stellen?** Klik op een van de knoppen hierboven — geen Git-ervaring nodig. Zie [CONTRIBUTING.md](CONTRIBUTING.md) voor meer opties.
+
 Beleidsmedewerkers bij gemeenten besteden veel tijd aan het doorzoeken van wet- en regelgeving, het schrijven van beleidsdocumenten en het bijhouden van nieuwe verplichtingen. De beleid-assistent ondersteunt dit proces met vijf gespecialiseerde AI-agents — van het scannen van relevante regelgeving tot het genereren van concept-beleidsdocumenten.
 
 ---
